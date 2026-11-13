@@ -201,6 +201,51 @@ is the manual equivalent.
 
 ---
 
+## Run it on GitHub (Student Pack)
+
+Short answer: **yes, but GitHub Pages cannot run Python.** Pages only serves static files, so it can
+never fetch prices or call the model. GitHub Actions does the daily work; the repo is where the report
+lives.
+
+The split:
+
+| Piece | What it does |
+| --- | --- |
+| GitHub Actions (`.github/workflows/daily.yml`) | Runs tests, fetches data, builds the brief, commits `reports/` and `data/snapshots/` |
+| Repository | Stores the history; GitHub renders `reports/latest.md` as a formatted page |
+| Pages (optional) | Needs a static HTML build — ask and I'll add one |
+
+### Setup, three steps
+
+1. Push the repo.
+2. **Settings → Secrets and variables → Actions → New repository secret**: name it
+   `OPENROUTER_API_KEY`, paste your key. Do **not** commit `.env`.
+3. **Actions → Enable workflows**, then run `daily-brief` once with *Run workflow* to confirm.
+
+It then runs Tue-Sat at 02:00 UTC (07:30 IST), after the US close. The 6-hour freshness guard is only
+used by the local scheduler scripts — CI always builds, since a committed report would otherwise make
+the first run look like a no-op.
+
+### What the Student Pack actually buys you here
+
+- **GitHub Pro** while you're enrolled: private repos, and roughly **3,000 Actions minutes/month** on
+  private repos. **Public repos get free standard-runner minutes**, so a public repo needs no Pro at all.
+- **Pages for private repos** (normally a Pro feature), if you later want a site.
+- **Copilot** — genuinely useful for extending this.
+
+This job uses about **1 minute per run**, ~25 minutes a month, and ~$0.001 of OpenRouter credit. Either
+way it fits comfortably.
+
+### Caveats worth knowing
+
+- **Scheduled workflows are best-effort.** They can fire late under load, and GitHub disables them after
+  60 days without repository activity. This job commits daily, which keeps it active — but if the market
+  is closed for a long stretch, push a commit to keep it alive.
+- **Datacenter IPs.** Yahoo's public endpoint sometimes rate-limits cloud IPs. The Stooq CSV fallback
+  covers US ETFs and stocks; anything unreachable is listed in the snapshot's `meta.errors`.
+- **Public repo = public reports.** Fine for a portfolio piece; use a private repo (Pro) if not.
+- **Rotate the key** you pasted into chat before pushing, then put the new one straight into the secret.
+
 ## Layout
 
 ```

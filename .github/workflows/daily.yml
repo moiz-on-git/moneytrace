@@ -1,0 +1,46 @@
+name: daily-brief
+
+# 02:00 UTC = 07:30 IST, Tue-Sat. Covers Monday-Friday US closes.
+# GitHub cron is best-effort and can be delayed by a few minutes under load.
+on:
+  schedule:
+    - cron: "0 2 * * 2-6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests -t .
+
+      - name: Build the brief
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python -m moneytrace run
+
+      - name: Commit the report
+        run: |
+          if [ -z "$(git status --porcelain reports data/snapshots)" ]; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git config user.name "money-trace-bot"
+          git config user.email "money-trace-bot@users.noreply.github.com"
+          git add reports data/snapshots
+          git commit -m "brief: $(date -u +%F)"
+          git push
