@@ -1,22 +1,22 @@
 # Money Trace - 2026-11-12
 
-**Session:** prior session (America/New_York) | **Generated:** 2026-11-13T12:16:37+00:00 | **Coverage:** 111 instruments | **History:** 1 session(s)
+**Session:** prior session (America/New_York) | **Generated:** 2026-11-13T12:26:23+00:00 | **Coverage:** 111 instruments | **History:** 1 session(s)
 
-> **Semis split: AMD +5.9% on 2.2x volume, NVDA -4.3% on 4.9x volume; small caps -1.6%.**
+> **NVDA's 4.9x volume rout offsets AMD's $19.3B inflow; small caps bleed**
 
 ```
 Risk appetite [############--------] 58/100  MIXED
 Breadth       18.0% advancing (16 up / 73 down)  |  37.1% above 20d MA  |  median -0.96%
 Tape          SPY -0.35%  QQQ -0.32%  IWM -1.64%  RSP -0.87%
-Crypto        BTC -2.79%  |  VIX 18.28
+Crypto        BTC -2.98%  |  VIX 18.21
 ```
 
 **The short version**
 
-- AMD and AVGO surged on heavy volume, NVDA and SMCI dumped.
-- Small caps (IWM) fell 1.6%, equal-weight S&P 500 dropped 0.9%.
-- 10Y yield rose 10.5 bps to 5.10%, TLT lost 1.5%.
-- Bitcoin slid 2.8% on 1.9x normal volume.
+- NVDA fell 4.3% on 4.9x normal volume, a bottom-4% move.
+- AMD surged 5.9% on $19.3B inflow, 2.2x volume, 89th percentile.
+- Small caps (IWM) dropped 1.6% with 0.99x volume, bottom 8%.
+- 10Y yield rose 10.5 bps to 5.10%, TLT fell 1.5% on 1.3x volume.
 
 ## 1. Where the money moved
 
@@ -64,9 +64,9 @@ Crypto        BTC -2.79%  |  VIX 18.28
 
 **Read**
 
-- **IN Semiconductor divergence** AMD drew $19.3B inflow, +5.9% on 2.2x volume; AVGO $10.1B inflow, +5.5% on 1.9x volume. _AMD, AVGO_
-- **OUT NVIDIA & Super Micro** NVDA lost $4.3B outflow, -4.3% on 4.9x volume; SMCI $1.9B outflow, -11.3% on 2.4x volume. _NVDA, SMCI_
-- **OUT Small caps & equal-weight** IWM saw $4.9B outflow, -1.6% on 1.0x volume; RSP $1.0B outflow, -0.9% on 0.8x volume. _IWM, RSP_
+- **IN Semiconductor rotation** AMD drew $19.3B, 2.2x volume, +5.9%; AVGO added $10.1B, 1.9x volume, +5.5%. _AMD, AVGO_
+- **OUT AI leader selloff** NVDA lost $4.3B on 4.9x volume, -4.3%, bottom 4% of its year. _NVDA_
+- **OUT Small caps & risk** IWM saw $4.9B outflow, -1.6%, bottom 8% of its year; SMCI -11.3% on 2.4x volume. _IWM, SMCI_
 
 ## 2. Rotation map
 
@@ -107,9 +107,9 @@ Share of the session's dollar-weighted movement: each name's slice of traded dol
 | INTC   | Intel           |  -2.08% |           1.2% |          0.9% |   -$459.8M | 0.5x |
 | GDX    | Gold miners     |  -3.95% |           0.5% |          0.8% |    -$1.71B | 1.3x |
 
-- **NVDA** - Drove 48.5% of the session's dollar-weighted move lower; -4.3% on 4.9x volume, bottom 4% of its past year.
-- **AMD** - Drove 17.1% of the session's dollar-weighted move higher; +5.9% on 2.2x volume, 89th percentile of its past year.
-- **AVGO** - Drove 8.0% of the session's dollar-weighted move higher; +5.5% on 1.9x volume, 98th percentile of its past year.
+- **NVDA** - Largest drag: 48.5% of the session's dollar-weighted move, -4.3% on 4.9x volume, bottom 4%.
+- **AMD** - Largest lift: 17.1% of the session's dollar-weighted move, +5.9% on $19.3B inflow, 89th percentile.
+- **AVGO** - 8.0% of the session's dollar-weighted move, +5.5% on $10.1B inflow, 98th percentile.
 
 ## 4. Key technologies and themes
 
@@ -128,10 +128,10 @@ Share of the session's dollar-weighted movement: each name's slice of traded dol
 | Biotech               | -1.98% |  +3.23% |    -$1.66B | LLY -0.70%  | XBI -3.27%  |   0% up |
 | Crypto rails          | -5.07% |  +0.41% |    -$2.63B | HOOD -3.82% | MSTR -6.49% |   0% up |
 
-- **AI compute & semis** - Money rotated from NVDA/SMCI into AMD/AVGO; net inflow $22.8B, but breadth only 25% up. _SMH, AMD, AVGO, NVDA_
-- **AI power & grid** - CEG rose 2.8% on 1.2x volume, but SMR fell 7.8%; net inflow $322M, breadth 29% up. _CEG, SMR_
-- **Crypto rails** - Outflow $2.6B; MSTR -6.5% on 1.1x volume, HOOD -3.8%; Bitcoin -2.8% on 1.9x volume. _MSTR, HOOD, BTC-USD_
-- **Quantum** - Outflow $708M; IONQ -9.4%, QTUM -1.2%; breadth 0% up, speculative names hit hard. _QTUM, IONQ_
+- **AI compute & semis** - Money rotated from NVDA into AMD and AVGO; net flow +$22.8B but breadth only 25% up. _AMD, AVGO, NVDA_
+- **AI power & grid** - CEG rose 2.8% on 1.17x volume, but laggard SMR fell 7.8%; breadth 29% up. _CEG, SMR_
+- **Crypto rails** - Heavy selling: MSTR -6.5%, HOOD -3.8%; basket flow -$2.6B, breadth 0% up. _MSTR, HOOD_
+- **China tech** - KWEB fell 3.2% on 2.0x volume, FXI -1.3%; basket flow -$1.3B, breadth 0% up. _KWEB, FXI_
 
 ## 5. Cross-asset check
 
@@ -141,11 +141,11 @@ Share of the session's dollar-weighted movement: each name's slice of traded dol
 | US 5Y yield       | 4.95% (+12bp) |  +12bp |   +34bp |    +5bp |
 | US 30Y yield      | 5.43% (+8bp)  |   +8bp |   +18bp |    +0bp |
 | US 13W bill       | 4.13% (+1bp)  |   +1bp |   +14bp |    +4bp |
-| US dollar index   | 103.22        | +0.05% |  +0.90% |  +1.35% |
-| VIX volatility    | 18.28         | -2.25% | -28.71% |  -8.55% |
-| Gold futures      | 3,899         | +0.35% |  -4.32% |  -6.75% |
-| WTI crude         | 88.58         | -0.18% |  -2.48% | -12.65% |
-| Copper futures    | 6.16          | -0.31% |  -0.88% |  -5.63% |
+| US dollar index   | 103.26        | +0.08% |  +0.94% |  +1.39% |
+| VIX volatility    | 18.21         | -2.62% | -28.98% |  -8.90% |
+| Gold futures      | 3,898         | +0.34% |  -4.33% |  -6.76% |
+| WTI crude         | 88.65         | -0.10% |  -2.40% | -12.58% |
+| Copper futures    | 6.16          | -0.39% |  -0.96% |  -5.70% |
 | 20Y+ Treasuries   | 79.72         | -1.48% |  -2.70% |  +0.11% |
 | 7-10Y Treasuries  | 90.21         | -0.80% |  -1.91% |  +0.18% |
 | High-yield credit | 76.98         | -0.48% |  -0.39% |  +0.33% |
@@ -153,9 +153,9 @@ Share of the session's dollar-weighted movement: each name's slice of traded dol
 
 | Crypto   |   Level |     1D |     1W |      1M | Flow (est) |
 | -------- | ------: | -----: | -----: | ------: | ---------: |
-| Bitcoin  | $69,354 | -2.79% | -7.01% | -14.16% |   -$22.97B |
-| Ethereum |  $1,962 | -2.73% | -7.51% | -16.74% |    -$4.72B |
-| Solana   |     $81 | -1.08% | -6.33% | -21.01% |   -$200.4M |
+| Bitcoin  | $69,217 | -2.98% | -7.20% | -14.33% |   -$25.99B |
+| Ethereum |  $1,958 | -2.92% | -7.69% | -16.89% |    -$5.34B |
+| Solana   |     $81 | -1.26% | -6.51% | -21.16% |   -$273.8M |
 
 ## 6. Unusual activity
 
@@ -178,19 +178,19 @@ Moves of 2%+ on at least 1.2x normal volume.
 
 **On the radar**
 
-- **SMCI** - Fell 11.3% on 2.4x volume, bottom 1% of its past year; $1.9B outflow.
-- **AMD** - Rose 5.9% on 2.2x volume, 89th percentile; $19.3B inflow, largest single-name inflow.
-- **NVDA** - Fell 4.3% on 4.9x volume, bottom 4% of its past year; $4.3B outflow, 48.5% of session's dollar-weighted move.
+- **SMCI** - Fell 11.3% on 2.4x volume, bottom 1% of its year; $1.9B outflow.
+- **GDX** - Gold miners dropped 4.0% on 1.3x volume, bottom 9% of its year.
+- **MSTR** - Fell 6.5% on 1.09x volume, bottom 7% of its year; crypto weakness.
 
 **What could flip this**
 
-- 10Y yield at 5.10% (+10.5 bps) pressures rate-sensitive assets; TLT -1.5% on 1.3x volume.
-- Breadth weak: only 18% of names rose, 73% fell; equal-weight S&P 500 -0.9% vs cap-weighted -0.4%.
+- 10Y yield at 5.10% after +10.5 bps; TLT -1.5% on 1.3x volume, rates pressuring equities.
+- Breadth weak: only 18% of names advanced, median stock -0.96%, equal-weight RSP -0.87%.
 
 **Check tomorrow**
 
-- Whether NVDA outflow continues or stabilizes; its 4.9x volume suggests conviction selling.
-- AMD/AVGO follow-through: both at high percentiles (89th and 98th) after large inflows.
+- Whether NVDA stabilizes after 4.9x volume rout or selling continues.
+- If small caps (IWM) extend losses after bottom-8% session.
 
 ---
 

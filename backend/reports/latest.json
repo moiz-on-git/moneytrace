@@ -1,20 +1,20 @@
 {
- "generated_at": "2026-11-13T12:16:37+00:00",
+ "generated_at": "2026-11-13T12:26:23+00:00",
  "session_date": "2026-11-12",
  "brief": {
   "regime": "mixed",
-  "headline": "Semis split: AMD +5.9% on 2.2x volume, NVDA -4.3% on 4.9x volume; small caps -1.6%.",
+  "headline": "NVDA's 4.9x volume rout offsets AMD's $19.3B inflow; small caps bleed",
   "tldr": [
-   "AMD and AVGO surged on heavy volume, NVDA and SMCI dumped.",
-   "Small caps (IWM) fell 1.6%, equal-weight S&P 500 dropped 0.9%.",
-   "10Y yield rose 10.5 bps to 5.10%, TLT lost 1.5%.",
-   "Bitcoin slid 2.8% on 1.9x normal volume."
+   "NVDA fell 4.3% on 4.9x normal volume, a bottom-4% move.",
+   "AMD surged 5.9% on $19.3B inflow, 2.2x volume, 89th percentile.",
+   "Small caps (IWM) dropped 1.6% with 0.99x volume, bottom 8%.",
+   "10Y yield rose 10.5 bps to 5.10%, TLT fell 1.5% on 1.3x volume."
   ],
   "where_money_moved": [
    {
     "direction": "in",
-    "theme": "Semiconductor divergence",
-    "evidence": "AMD drew $19.3B inflow, +5.9% on 2.2x volume; AVGO $10.1B inflow, +5.5% on 1.9x volume.",
+    "theme": "Semiconductor rotation",
+    "evidence": "AMD drew $19.3B, 2.2x volume, +5.9%; AVGO added $10.1B, 1.9x volume, +5.5%.",
     "vehicles": [
      "AMD",
      "AVGO"
@@ -22,43 +22,41 @@
    },
    {
     "direction": "out",
-    "theme": "NVIDIA & Super Micro",
-    "evidence": "NVDA lost $4.3B outflow, -4.3% on 4.9x volume; SMCI $1.9B outflow, -11.3% on 2.4x volume.",
+    "theme": "AI leader selloff",
+    "evidence": "NVDA lost $4.3B on 4.9x volume, -4.3%, bottom 4% of its year.",
     "vehicles": [
-     "NVDA",
-     "SMCI"
+     "NVDA"
     ]
    },
    {
     "direction": "out",
-    "theme": "Small caps & equal-weight",
-    "evidence": "IWM saw $4.9B outflow, -1.6% on 1.0x volume; RSP $1.0B outflow, -0.9% on 0.8x volume.",
+    "theme": "Small caps & risk",
+    "evidence": "IWM saw $4.9B outflow, -1.6%, bottom 8% of its year; SMCI -11.3% on 2.4x volume.",
     "vehicles": [
      "IWM",
-     "RSP"
+     "SMCI"
     ]
    }
   ],
   "who_is_driving": [
    {
     "name": "NVDA",
-    "why": "Drove 48.5% of the session's dollar-weighted move lower; -4.3% on 4.9x volume, bottom 4% of its past year."
+    "why": "Largest drag: 48.5% of the session's dollar-weighted move, -4.3% on 4.9x volume, bottom 4%."
    },
    {
     "name": "AMD",
-    "why": "Drove 17.1% of the session's dollar-weighted move higher; +5.9% on 2.2x volume, 89th percentile of its past year."
+    "why": "Largest lift: 17.1% of the session's dollar-weighted move, +5.9% on $19.3B inflow, 89th percentile."
    },
    {
     "name": "AVGO",
-    "why": "Drove 8.0% of the session's dollar-weighted move higher; +5.5% on 1.9x volume, 98th percentile of its past year."
+    "why": "8.0% of the session's dollar-weighted move, +5.5% on $10.1B inflow, 98th percentile."
    }
   ],
   "key_tech": [
    {
     "tech": "AI compute & semis",
-    "signal": "Money rotated from NVDA/SMCI into AMD/AVGO; net inflow $22.8B, but breadth only 25% up.",
+    "signal": "Money rotated from NVDA into AMD and AVGO; net flow +$22.8B but breadth only 25% up.",
     "tickers": [
-     "SMH",
      "AMD",
      "AVGO",
      "NVDA"
@@ -66,7 +64,7 @@
    },
    {
     "tech": "AI power & grid",
-    "signal": "CEG rose 2.8% on 1.2x volume, but SMR fell 7.8%; net inflow $322M, breadth 29% up.",
+    "signal": "CEG rose 2.8% on 1.17x volume, but laggard SMR fell 7.8%; breadth 29% up.",
     "tickers": [
      "CEG",
      "SMR"
@@ -74,55 +72,54 @@
    },
    {
     "tech": "Crypto rails",
-    "signal": "Outflow $2.6B; MSTR -6.5% on 1.1x volume, HOOD -3.8%; Bitcoin -2.8% on 1.9x volume.",
+    "signal": "Heavy selling: MSTR -6.5%, HOOD -3.8%; basket flow -$2.6B, breadth 0% up.",
     "tickers": [
      "MSTR",
-     "HOOD",
-     "BTC-USD"
+     "HOOD"
     ]
    },
    {
-    "tech": "Quantum",
-    "signal": "Outflow $708M; IONQ -9.4%, QTUM -1.2%; breadth 0% up, speculative names hit hard.",
+    "tech": "China tech",
+    "signal": "KWEB fell 3.2% on 2.0x volume, FXI -1.3%; basket flow -$1.3B, breadth 0% up.",
     "tickers": [
-     "QTUM",
-     "IONQ"
+     "KWEB",
+     "FXI"
     ]
    }
   ],
   "stocks": [
    {
     "ticker": "SMCI",
-    "note": "Fell 11.3% on 2.4x volume, bottom 1% of its past year; $1.9B outflow."
+    "note": "Fell 11.3% on 2.4x volume, bottom 1% of its year; $1.9B outflow."
    },
    {
-    "ticker": "AMD",
-    "note": "Rose 5.9% on 2.2x volume, 89th percentile; $19.3B inflow, largest single-name inflow."
+    "ticker": "GDX",
+    "note": "Gold miners dropped 4.0% on 1.3x volume, bottom 9% of its year."
    },
    {
-    "ticker": "NVDA",
-    "note": "Fell 4.3% on 4.9x volume, bottom 4% of its past year; $4.3B outflow, 48.5% of session's dollar-weighted move."
+    "ticker": "MSTR",
+    "note": "Fell 6.5% on 1.09x volume, bottom 7% of its year; crypto weakness."
    }
   ],
   "risks": [
-   "10Y yield at 5.10% (+10.5 bps) pressures rate-sensitive assets; TLT -1.5% on 1.3x volume.",
-   "Breadth weak: only 18% of names rose, 73% fell; equal-weight S&P 500 -0.9% vs cap-weighted -0.4%."
+   "10Y yield at 5.10% after +10.5 bps; TLT -1.5% on 1.3x volume, rates pressuring equities.",
+   "Breadth weak: only 18% of names advanced, median stock -0.96%, equal-weight RSP -0.87%."
   ],
   "watch_tomorrow": [
-   "Whether NVDA outflow continues or stabilizes; its 4.9x volume suggests conviction selling.",
-   "AMD/AVGO follow-through: both at high percentiles (89th and 98th) after large inflows."
+   "Whether NVDA stabilizes after 4.9x volume rout or selling continues.",
+   "If small caps (IWM) extend losses after bottom-8% session."
   ],
   "confidence": 0.85,
   "generated_by": "openrouter"
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-13T12:16:37+00:00",
+  "started": "2026-11-13T12:26:23+00:00",
   "usage": {
-   "prompt_tokens": 6962,
-   "completion_tokens": 1203,
-   "total_tokens": 8165,
-   "cost": 0.00103995
+   "prompt_tokens": 7063,
+   "completion_tokens": 1104,
+   "total_tokens": 8167,
+   "cost": 0.000843661
   },
   "model_returned": "deepseek/deepseek-v4-flash",
   "finish_reason": "stop"
@@ -131,7 +128,7 @@
   "session_date": "2026-11-12",
   "status": "prior session",
   "live": false,
-  "market_now": "2026-11-13 07:16",
+  "market_now": "2026-11-13 07:26",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }
