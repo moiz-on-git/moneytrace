@@ -13,8 +13,8 @@
  *      Settings -> Pages -> Source: Deploy from a branch -> main / docs.
  *      Then set USE_PAGES = true below.
  */
-export const REPO_OWNER = "YOUR_GITHUB_USERNAME";
-export const REPO_NAME = "money-trace";
+export const REPO_OWNER = "moiz-on-git";
+export const REPO_NAME = "moneytrace";
 export const BRANCH = "main";
 export const USE_PAGES = false;
 
