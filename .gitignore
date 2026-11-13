@@ -1,13 +1,25 @@
 # secrets
 .env
+.env.local
 
-# generated data
-data/cache/
+# generated / local state
+**/data/cache/
+backend/logs/
 logs/
 *.log
-
-# python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+
+# mobile app
+app/node_modules/
+app/.expo/
+app/dist/
+app/web-build/
+npm-debug.log*
+yarn-error.log*
+
+# os
+.DS_Store
+Thumbs.db

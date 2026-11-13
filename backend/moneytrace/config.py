@@ -6,12 +6,18 @@ import os
 from dataclasses import dataclass, field
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent  # backend/
+REPO_ROOT = ROOT.parent
 DATA_DIR = ROOT / "data"
 CACHE_DIR = DATA_DIR / "cache"
 SNAPSHOT_DIR = DATA_DIR / "snapshots"
 REPORT_DIR = ROOT / "reports"
 LOG_DIR = ROOT / "logs"
+
+# The public read-only API the mobile app consumes. Committed, then served by GitHub.
+DOCS_DIR = REPO_ROOT / "docs"
+API_DIR = DOCS_DIR / "v1"
+API_SESSIONS_DIR = API_DIR / "sessions"
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1"
 OPENROUTER_CHAT = OPENROUTER_URL + "/chat/completions"
@@ -276,5 +282,5 @@ def api_key() -> str | None:
 
 
 def ensure_dirs() -> None:
-    for d in (DATA_DIR, CACHE_DIR, SNAPSHOT_DIR, REPORT_DIR, LOG_DIR):
+    for d in (DATA_DIR, CACHE_DIR, SNAPSHOT_DIR, REPORT_DIR, LOG_DIR, DOCS_DIR, API_DIR, API_SESSIONS_DIR):
         d.mkdir(parents=True, exist_ok=True)

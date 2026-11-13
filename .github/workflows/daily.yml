@@ -14,6 +14,10 @@ concurrency:
   group: daily-brief
   cancel-in-progress: false
 
+defaults:
+  run:
+    working-directory: backend
+
 jobs:
   brief:
     runs-on: ubuntu-latest
@@ -33,14 +37,15 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python -m moneytrace run
 
-      - name: Commit the report
+      - name: Commit the report and the API
+        working-directory: .
         run: |
-          if [ -z "$(git status --porcelain reports data/snapshots)" ]; then
+          git config user.name "money-trace-bot"
+          git config user.email "money-trace-bot@users.noreply.github.com"
+          git add backend/reports backend/data/snapshots docs
+          if git diff --cached --quiet; then
             echo "Nothing new to commit."
             exit 0
           fi
-          git config user.name "money-trace-bot"
-          git config user.email "money-trace-bot@users.noreply.github.com"
-          git add reports data/snapshots
           git commit -m "brief: $(date -u +%F)"
           git push

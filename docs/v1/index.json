@@ -1,0 +1,15 @@
+{
+ "schema": 1,
+ "updated_at": "2026-11-13T12:16:37+00:00",
+ "latest": "2026-11-12",
+ "sessions": [
+  {
+   "date": "2026-11-12",
+   "headline": "Semis split: AMD +5.9% on 2.2x volume, NVDA -4.3% on 4.9x volume; small caps -1.6%.",
+   "regime": "mixed",
+   "regime_score": 57.7,
+   "spy": -0.00354,
+   "pct_up": 18.0
+  }
+ ]
+}

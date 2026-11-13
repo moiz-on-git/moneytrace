@@ -12,6 +12,7 @@ from . import __version__
 from .analysis import build_snapshot, save_snapshot
 from .config import REPORT_DIR, UNIVERSE, api_key, ensure_dirs, load_env
 from .llm import fallback_brief, generate, resolve_model
+from .publish import publish
 from .render import pct, ratio, render, usd, write_report
 from .sources import fetch_universe
 
@@ -122,6 +123,14 @@ def cmd_run(args: argparse.Namespace) -> int:
     report_path = write_report(snapshot, brief, meta)
     print(_digest(snapshot, brief, meta))
     print(f"\nReport: {report_path}")
+
+    if not args.no_publish:
+        try:
+            api_paths = publish(snapshot, brief, meta)
+            print(f"API:    {api_paths[0].parent}")
+        except Exception as exc:  # noqa: BLE001 - never lose the report over the API step
+            print(f"  ! API publish failed: {exc}", file=sys.stderr)
+
     if args.open:
         import os
 
@@ -167,6 +176,7 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--refresh", action="store_true", help="ignore the local cache")
     run.add_argument("--workers", type=int, default=6, help="parallel fetches (default 6)")
     run.add_argument("--open", action="store_true", help="open the report when done")
+    run.add_argument("--no-publish", action="store_true", help="skip writing the docs/v1 JSON API")
     run.add_argument(
         "--max-age-hours",
         type=float,
