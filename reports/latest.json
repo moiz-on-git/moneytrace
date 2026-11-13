@@ -1,17 +1,20 @@
 {
+ "generated_at": "2026-11-13T12:07:40+00:00",
+ "session_date": "2026-11-12",
  "brief": {
   "regime": "mixed",
-  "headline": "NVDA's 4.9x volume selloff dominates; AMD surges on AI compute rotation",
+  "headline": "NVDA's 4.9x volume plunge offsets AMD's $19.3B inflow; small caps lag",
   "tldr": [
-   "NVDA fell 4.3% on 4.9x normal volume, bottom 4% of its past year.",
-   "AMD jumped 5.9% on 2.2x volume, top 11% of its past year.",
-   "Small caps (IWM) dropped 1.6%, bottom 8% of its past year."
+   "NVDA fell 4.3% on 4.9x normal volume (4th percentile).",
+   "AMD surged 5.9% on $19.3B inflow, 2.2x volume, 89th percentile move.",
+   "Small caps (IWM) dropped 1.6% with 0.99x volume, 8th percentile of past year.",
+   "10Y yield rose 10.5 bps to 5.10%, TLT fell 1.5% on 1.3x volume."
   ],
   "where_money_moved": [
    {
     "direction": "in",
-    "theme": "AI compute rotation",
-    "evidence": "AMD drew $19.3B in flow, up 5.9% on 2.2x volume.",
+    "theme": "Semiconductor rotation",
+    "evidence": "AMD drew $19.3B inflow, up 5.9% on 2.2x volume; AVGO added $10.1B, up 5.5% on 1.9x volume.",
     "vehicles": [
      "AMD",
      "AVGO"
@@ -19,112 +22,112 @@
    },
    {
     "direction": "out",
-    "theme": "Semiconductor leader",
-    "evidence": "NVDA lost $4.3B in flow, down 4.3% on 4.9x volume.",
+    "theme": "AI leader selloff",
+    "evidence": "NVDA lost $4.3B outflow, down 4.3% on 4.9x volume, 4th percentile of its past year.",
     "vehicles": [
-     "NVDA",
-     "SMCI"
+     "NVDA"
     ]
    },
    {
     "direction": "out",
-    "theme": "Small caps",
-    "evidence": "IWM shed $4.9B in flow, down 1.6% on near-normal volume.",
+    "theme": "Small caps & broad indices",
+    "evidence": "IWM saw $4.9B outflow, down 1.6% on 0.99x volume; SPY lost $3.8B, down 0.4%.",
     "vehicles": [
-     "IWM"
+     "IWM",
+     "SPY"
     ]
    }
   ],
   "who_is_driving": [
    {
     "name": "NVDA",
-    "why": "48.5% of the session's dollar-weighted move, down 4.3% on 4.9x volume."
+    "why": "48.5% of the session's dollar-weighted move, down 4.3% on 4.9x volume, 4th percentile of its past year."
    },
    {
     "name": "AMD",
-    "why": "17.1% of the session's dollar-weighted move, up 5.9% on 2.2x volume."
+    "why": "17.1% of the session's dollar-weighted move, up 5.9% on $19.3B inflow, 89th percentile move."
    },
    {
     "name": "AVGO",
-    "why": "8.0% of the session's dollar-weighted move, up 5.5% on 1.9x volume."
+    "why": "8.0% of the session's dollar-weighted move, up 5.5% on $10.1B inflow, 98th percentile move."
    }
   ],
   "key_tech": [
    {
     "tech": "AI compute & semis",
-    "signal": "Money rotated from NVDA into AMD and AVGO; net flow +$22.8B.",
+    "signal": "Money rotated from NVDA into AMD and AVGO; net flow +$22.8B, but breadth only 25% up.",
     "tickers": [
+     "SMH",
+     "NVDA",
      "AMD",
-     "AVGO",
-     "NVDA"
+     "AVGO"
     ]
    },
    {
     "tech": "Crypto rails",
-    "signal": "Outflow $2.6B; MSTR fell 6.5%, bottom 7% of its past year.",
+    "signal": "Outflow of $2.6B, MSTR down 6.5% on 1.1x volume, 7th percentile move.",
     "tickers": [
      "MSTR",
      "HOOD"
     ]
    },
    {
-    "tech": "Quantum",
-    "signal": "Outflow $708M; IONQ lagged with a 9.4% drop.",
+    "tech": "Gold miners",
+    "signal": "GDX fell 4.0% on 1.3x volume, 9th percentile, $1.7B outflow.",
     "tickers": [
-     "IONQ",
-     "QTUM"
+     "GDX"
     ]
    },
    {
-    "tech": "Gold miners",
-    "signal": "GDX fell 4.0% on 1.3x volume, bottom 9% of its past year.",
+    "tech": "Defense",
+    "signal": "ITA down 2.1% on 1.6x volume, $205M outflow.",
     "tickers": [
-     "GDX"
+     "ITA"
     ]
    }
   ],
   "stocks": [
    {
     "ticker": "SMCI",
-    "note": "Down 11.3% on 2.4x volume, bottom 1% of its past year."
-   },
-   {
-    "ticker": "CEG",
-    "note": "Up 2.8% on 1.2x volume, top 16% of its past year."
+    "note": "Down 11.3% on 2.4x volume, $1.9B outflow, 1st percentile of its past year."
    },
    {
     "ticker": "MSTR",
-    "note": "Down 6.5% on 1.1x volume, bottom 7% of its past year."
+    "note": "Down 6.5% on 1.1x volume, $1.4B outflow, 7th percentile move."
+   },
+   {
+    "ticker": "CEG",
+    "note": "Up 2.8% on 1.2x volume, $578M inflow, 84th percentile; AI power theme leader."
    }
   ],
   "risks": [
-   "10Y yield rose 10.5 bps to 5.10%, pressuring rate-sensitive assets.",
-   "Bitcoin dropped 6.8% on 1.5x volume, signaling risk-off in crypto."
+   "10Y yield at 5.10% after 10.5 bps rise; TLT fell 1.5% on 1.3x volume, pressure on duration.",
+   "Small caps (IWM) at 8th percentile of past year; breadth only 18% advancers, 37% above 20-day."
   ],
   "watch_tomorrow": [
-   "Whether NVDA's 4.9x volume selloff extends or stabilizes.",
-   "If small caps (IWM) continue to underperform after bottom 8% move."
+   "NVDA volume: 4.9x today; any follow-through or stabilization.",
+   "10Y yield at 5.10%: whether it breaks higher and pressures equities further."
   ],
   "confidence": 0.85,
   "generated_by": "openrouter"
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-13T04:19:35+00:00",
+  "started": "2026-11-13T12:07:40+00:00",
   "usage": {
-   "prompt_tokens": 6962,
-   "completion_tokens": 906,
-   "total_tokens": 7868,
-   "cost": 0.00098946
+   "prompt_tokens": 7063,
+   "completion_tokens": 1103,
+   "total_tokens": 8166,
+   "cost": 0.000843479
   },
   "model_returned": "deepseek/deepseek-v4-flash",
   "finish_reason": "stop"
  },
  "session": {
   "session_date": "2026-11-12",
-  "status": "close",
-  "live": true,
-  "market_now": "2026-11-12 23:19",
+  "status": "prior session",
+  "live": false,
+  "market_now": "2026-11-13 07:07",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }

@@ -23,12 +23,15 @@ python -m moneytrace run
 ```
 
 That is the whole thing. First run takes ~20s and writes `reports/2026-11-12.md` plus `reports/latest.md`.
+On Windows you can also double-click **`run.cmd`**, which runs it and opens the report.
 
 ```powershell
 python -m moneytrace run --no-ai      # skip the model, use deterministic templates
 python -m moneytrace run --refresh    # ignore the 15-minute local cache
+python -m moneytrace run --open       # open the report when done
 python -m moneytrace status           # print the latest brief in the terminal
 python -m moneytrace models           # show which OpenRouter model would be used
+python -m unittest discover -s tests -t .   # 28 tests, no network
 ```
 
 Requires Python 3.10+. No `pip install` needed — the standard library does the HTTP, the JSON, the
@@ -158,26 +161,29 @@ Pin a model with `--model`, or by setting `MODEL=` in `.env`.
 
 ## Automate it
 
-### Option A — DeepSeek Harness schedule (already set up)
+The schedule below runs Tue-Sat at 07:30 IST, which is after the 16:00 ET US close, so Monday-Friday
+sessions are all covered. It uses `--max-age-hours 6`: if a report for the session already exists, the
+run exits immediately instead of paying for the same work twice.
 
-There is a task that runs Tue-Sat at 07:30 IST, which is after the US close (16:00 ET) and therefore
-covers Monday-Friday US sessions. It runs the tool and posts the digest into a session.
+### DeepSeek Harness schedule (active)
 
-Manage it with `schedule_list` / `schedule_edit`, or delete it if you prefer Task Scheduler.
+A task titled *"Run daily money-flow brief"* is active and delivers the digest into a session. It runs
+the tool, then reads `reports/latest.md` and posts the condensed version. Manage it with
+`schedule_list` / `schedule_edit`.
 
-### Option B — Windows Task Scheduler
+### Windows Task Scheduler (nothing installed)
 
-```powershell
-# one-time install
-powershell -ExecutionPolicy Bypass -File .\scripts\register_task.ps1
-```
-
-Runs `scripts/run_daily.ps1` Tue-Sat 07:30, logging to `logs\`. Useful if the harness is not running.
-Check the result:
+**No OS-level task is registered.** If you ever want a fallback that runs without the harness, the
+script is ready and only touches your own task folder:
 
 ```powershell
-Get-Content (Get-ChildItem logs\run_*.log | Sort-Object LastWriteTime | Select-Object -Last 1)
+powershell -ExecutionPolicy Bypass -File .\scripts\register_task.ps1   # opt in
+schtasks /query /tn "Money Trace Daily" /fo LIST /v                    # check
+Unregister-ScheduledTask -TaskName "Money Trace Daily" -Confirm:$false # undo
 ```
+
+That runs `scripts/run_daily.ps1` Tue-Sat 07:30 and logs to `logs\`. If it is not installed, `run.cmd`
+is the manual equivalent.
 
 ---
 
@@ -206,9 +212,35 @@ moneytrace/
   llm.py       OpenRouter client, model resolution, prompt, JSON validation, claim sanitiser, fallback
   render.py    markdown report
   cli.py       argparse entry point
+tests/         28 unit tests: flow math, sanitiser, formatting, full pipeline, history streaks
 reports/       daily markdown + latest
 data/          snapshots (history), cache (gitignored)
 scripts/       run_daily.ps1, register_task.ps1
+run.cmd        double-click launcher
+```
+
+## Tests
+
+```powershell
+python -m unittest discover -s tests -t .
+```
+
+No network, no API key, ~0.03s. They pin the behaviour that is easy to break later:
+
+- the flow estimator is positive on a strong close, near zero on a flat day, and near zero on a
+  gap-down that closes at the high of its range (the bug that made the first version lie)
+- crypto volume is treated as dollars, yields move in basis points, short histories don't crash
+- the claim sanitiser cuts "worst day in a year" but keeps the number and the percentile
+- the brief parser keeps `vehicles`/`tickers` as lists and never blanks short tickers
+- a full synthetic snapshot renders with no `None` cells and valid right-aligned tables
+- streaks and reversals compute correctly from stored snapshots
+
+## Version control
+
+The repo is initialised on `main` with a first commit. `.env` is gitignored — verify before pushing:
+
+```powershell
+git ls-files | Select-String "^\.env$"   # must print nothing
 ```
 
 ---
