@@ -16,7 +16,10 @@
 export const REPO_OWNER = "moiz-on-git";
 export const REPO_NAME = "moneytrace";
 export const BRANCH = "main";
-export const USE_PAGES = false;
+// The repo is (or will be) private, and raw.githubusercontent refuses anonymous
+// reads of private repos. GitHub Pages is enabled on main /docs, so the app reads
+// the same committed JSON from the published site instead.
+export const USE_PAGES = true;
 
 export const API_BASE = USE_PAGES
   ? `https://${REPO_OWNER}.github.io/${REPO_NAME}/v1`
