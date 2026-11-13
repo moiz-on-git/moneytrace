@@ -1,0 +1,13 @@
+# secrets
+.env
+
+# generated data
+data/cache/
+logs/
+*.log
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

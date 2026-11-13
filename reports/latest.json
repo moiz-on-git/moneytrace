@@ -1,0 +1,131 @@
+{
+ "brief": {
+  "regime": "mixed",
+  "headline": "NVDA's 4.9x volume selloff dominates; AMD surges on AI compute rotation",
+  "tldr": [
+   "NVDA fell 4.3% on 4.9x normal volume, bottom 4% of its past year.",
+   "AMD jumped 5.9% on 2.2x volume, top 11% of its past year.",
+   "Small caps (IWM) dropped 1.6%, bottom 8% of its past year."
+  ],
+  "where_money_moved": [
+   {
+    "direction": "in",
+    "theme": "AI compute rotation",
+    "evidence": "AMD drew $19.3B in flow, up 5.9% on 2.2x volume.",
+    "vehicles": [
+     "AMD",
+     "AVGO"
+    ]
+   },
+   {
+    "direction": "out",
+    "theme": "Semiconductor leader",
+    "evidence": "NVDA lost $4.3B in flow, down 4.3% on 4.9x volume.",
+    "vehicles": [
+     "NVDA",
+     "SMCI"
+    ]
+   },
+   {
+    "direction": "out",
+    "theme": "Small caps",
+    "evidence": "IWM shed $4.9B in flow, down 1.6% on near-normal volume.",
+    "vehicles": [
+     "IWM"
+    ]
+   }
+  ],
+  "who_is_driving": [
+   {
+    "name": "NVDA",
+    "why": "48.5% of the session's dollar-weighted move, down 4.3% on 4.9x volume."
+   },
+   {
+    "name": "AMD",
+    "why": "17.1% of the session's dollar-weighted move, up 5.9% on 2.2x volume."
+   },
+   {
+    "name": "AVGO",
+    "why": "8.0% of the session's dollar-weighted move, up 5.5% on 1.9x volume."
+   }
+  ],
+  "key_tech": [
+   {
+    "tech": "AI compute & semis",
+    "signal": "Money rotated from NVDA into AMD and AVGO; net flow +$22.8B.",
+    "tickers": [
+     "AMD",
+     "AVGO",
+     "NVDA"
+    ]
+   },
+   {
+    "tech": "Crypto rails",
+    "signal": "Outflow $2.6B; MSTR fell 6.5%, bottom 7% of its past year.",
+    "tickers": [
+     "MSTR",
+     "HOOD"
+    ]
+   },
+   {
+    "tech": "Quantum",
+    "signal": "Outflow $708M; IONQ lagged with a 9.4% drop.",
+    "tickers": [
+     "IONQ",
+     "QTUM"
+    ]
+   },
+   {
+    "tech": "Gold miners",
+    "signal": "GDX fell 4.0% on 1.3x volume, bottom 9% of its past year.",
+    "tickers": [
+     "GDX"
+    ]
+   }
+  ],
+  "stocks": [
+   {
+    "ticker": "SMCI",
+    "note": "Down 11.3% on 2.4x volume, bottom 1% of its past year."
+   },
+   {
+    "ticker": "CEG",
+    "note": "Up 2.8% on 1.2x volume, top 16% of its past year."
+   },
+   {
+    "ticker": "MSTR",
+    "note": "Down 6.5% on 1.1x volume, bottom 7% of its past year."
+   }
+  ],
+  "risks": [
+   "10Y yield rose 10.5 bps to 5.10%, pressuring rate-sensitive assets.",
+   "Bitcoin dropped 6.8% on 1.5x volume, signaling risk-off in crypto."
+  ],
+  "watch_tomorrow": [
+   "Whether NVDA's 4.9x volume selloff extends or stabilizes.",
+   "If small caps (IWM) continue to underperform after bottom 8% move."
+  ],
+  "confidence": 0.85,
+  "generated_by": "openrouter"
+ },
+ "llm": {
+  "model": "deepseek/deepseek-v4-flash",
+  "started": "2026-11-13T04:19:35+00:00",
+  "usage": {
+   "prompt_tokens": 6962,
+   "completion_tokens": 906,
+   "total_tokens": 7868,
+   "cost": 0.00098946
+  },
+  "model_returned": "deepseek/deepseek-v4-flash",
+  "finish_reason": "stop"
+ },
+ "session": {
+  "session_date": "2026-11-12",
+  "status": "close",
+  "live": true,
+  "market_now": "2026-11-12 23:19",
+  "timezone": "America/New_York",
+  "region": "NYSEArca"
+ }
+}
