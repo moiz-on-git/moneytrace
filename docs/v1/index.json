@@ -1,8 +1,16 @@
 {
  "schema": 1,
- "updated_at": "2026-11-14T08:41:08+00:00",
- "latest": "2026-11-13",
+ "updated_at": "2026-11-17T10:17:02+00:00",
+ "latest": "2026-11-16",
  "sessions": [
+  {
+   "date": "2026-11-16",
+   "headline": "Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.",
+   "regime": "risk-off",
+   "regime_score": 21.3,
+   "spy": -0.019115,
+   "pct_up": 9.0
+  },
   {
    "date": "2026-11-13",
    "headline": "Largest estimated inflow: META (Meta Platforms) at +$7.62B on 0.7x volume, +2.90%.",

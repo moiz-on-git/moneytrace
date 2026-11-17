@@ -1,52 +1,52 @@
 {
- "generated_at": "2026-11-14T08:41:08+00:00",
- "session_date": "2026-11-13",
+ "generated_at": "2026-11-17T10:17:02+00:00",
+ "session_date": "2026-11-16",
  "brief": {
-  "regime": "mixed",
-  "headline": "Largest estimated inflow: META (Meta Platforms) at +$7.62B on 0.7x volume, +2.90%.",
+  "regime": "risk-off",
+  "headline": "Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.",
   "tldr": [
-   "Largest estimated inflow: META (Meta Platforms) at +$7.62B on 0.7x volume, +2.90%.",
-   "Largest estimated outflow: AMD (AMD) at -$18.59B, -8.75%.",
-   "Breadth 37.1% advancing across 89 equity instruments; 34.8% above their 20-day average.",
-   "Risk appetite reads mixed at 49.9/100."
+   "Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.",
+   "Largest estimated outflow: SPY (S&P 500) at -$42.91B, -1.91%.",
+   "Breadth 9.0% advancing across 89 equity instruments; 19.1% above their 20-day average.",
+   "Risk appetite reads risk-off at 21.3/100."
   ],
   "where_money_moved": [
    {
     "direction": "in",
-    "theme": "META",
-    "evidence": "+$7.62B estimated net flow, +2.90%, 0.7x relative volume.",
+    "theme": "COST",
+    "evidence": "+$882.46M estimated net flow, +0.68%, 1.4x relative volume.",
     "vehicles": [
-     "META"
+     "COST"
     ]
    },
    {
     "direction": "in",
-    "theme": "XLP",
-    "evidence": "+$1.35B estimated net flow, +1.42%, 1.1x relative volume.",
+    "theme": "UNH",
+    "evidence": "+$371.43M estimated net flow, +1.12%, 1.0x relative volume.",
     "vehicles": [
-     "XLP"
+     "UNH"
     ]
    },
    {
     "direction": "in",
-    "theme": "WMT",
-    "evidence": "+$1.24B estimated net flow, +1.51%, 0.8x relative volume.",
+    "theme": "ADBE",
+    "evidence": "+$134.77M estimated net flow, +1.20%, 1.1x relative volume.",
     "vehicles": [
-     "WMT"
+     "ADBE"
     ]
    },
    {
     "direction": "out",
-    "theme": "AMD",
-    "evidence": "-$18.59B estimated net flow, -8.75%, 1.8x relative volume.",
+    "theme": "SPY",
+    "evidence": "-$42.91B estimated net flow, -1.91%, 1.7x relative volume.",
     "vehicles": [
-     "AMD"
+     "SPY"
     ]
    },
    {
     "direction": "out",
     "theme": "NVDA",
-    "evidence": "-$10.85B estimated net flow, -2.01%, 2.4x relative volume.",
+    "evidence": "-$25.33B estimated net flow, -4.12%, 2.0x relative volume.",
     "vehicles": [
      "NVDA"
     ]
@@ -54,7 +54,7 @@
    {
     "direction": "out",
     "theme": "QQQ",
-    "evidence": "-$6.48B estimated net flow, -1.20%, 1.1x relative volume.",
+    "evidence": "-$23.17B estimated net flow, -2.67%, 1.0x relative volume.",
     "vehicles": [
      "QQQ"
     ]
@@ -62,91 +62,93 @@
   ],
   "who_is_driving": [
    {
-    "name": "AMD",
-    "why": "33.2% of today's dollar-weighted movement (down), -8.75% on -$18.59B estimated flow."
-   },
-   {
     "name": "NVDA",
-    "why": "17.2% of today's dollar-weighted movement (down), -2.01% on -$10.85B estimated flow."
+    "why": "18.1% of today's dollar-weighted movement (down), -4.12% on -$25.33B estimated flow."
    },
    {
     "name": "MU",
-    "why": "7.9% of today's dollar-weighted movement (down), -2.52% on -$2.55B estimated flow."
+    "why": "12.4% of today's dollar-weighted movement (down), -7.62% on -$13.88B estimated flow."
    },
    {
-    "name": "AVGO",
-    "why": "7.5% of today's dollar-weighted movement (down), -4.76% on -$4.93B estimated flow."
+    "name": "AMD",
+    "why": "8.6% of today's dollar-weighted movement (down), -5.58% on -$9.35B estimated flow."
+   },
+   {
+    "name": "SPY",
+    "why": "8.3% of today's dollar-weighted movement (down), -1.91% on -$42.91B estimated flow."
    },
    {
     "name": "QQQ",
-    "why": "4.9% of today's dollar-weighted movement (down), -1.20% on -$6.48B estimated flow."
+    "why": "6.4% of today's dollar-weighted movement (down), -2.67% on -$23.17B estimated flow."
    }
   ],
   "key_tech": [
    {
-    "tech": "Consumer",
-    "signal": "+0.73% today, +2.90% over 5 sessions, +$2.05B estimated flow.",
+    "tech": "Cybersecurity",
+    "signal": "-1.22% today, -1.26% over 5 sessions, -$2.56M estimated flow.",
     "tickers": [
-     "XRT",
-     "AMZN",
-     "WMT",
-     "COST"
-    ]
-   },
-   {
-    "tech": "Biotech",
-    "signal": "+0.41% today, +2.82% over 5 sessions, +$733.98M estimated flow.",
-    "tickers": [
-     "XBI",
-     "LLY"
-    ]
-   },
-   {
-    "tech": "Software & cloud",
-    "signal": "-0.09% today, +2.79% over 5 sessions, +$607.02M estimated flow.",
-    "tickers": [
-     "IGV",
-     "SKYY",
-     "MSFT",
-     "ORCL"
-    ]
-   },
-   {
-    "tech": "China tech",
-    "signal": "+0.04% today, -6.02% over 5 sessions, +$17.67M estimated flow.",
-    "tickers": [
-     "KWEB",
-     "FXI"
+     "HACK"
     ]
    },
    {
     "tech": "Robotics & automation",
-    "signal": "-0.60% today, +0.58% over 5 sessions, -$2.03M estimated flow.",
+    "signal": "-3.55% today, -5.52% over 5 sessions, -$22.79M estimated flow.",
     "tickers": [
      "BOTZ"
+    ]
+   },
+   {
+    "tech": "Defense",
+    "signal": "-2.46% today, -2.68% over 5 sessions, -$97.07M estimated flow.",
+    "tickers": [
+     "ITA"
+    ]
+   },
+   {
+    "tech": "AI power & grid",
+    "signal": "-3.65% today, -8.85% over 5 sessions, -$450.38M estimated flow.",
+    "tickers": [
+     "GRID",
+     "NLR",
+     "URA",
+     "VST"
+    ]
+   },
+   {
+    "tech": "Quantum",
+    "signal": "-6.19% today, -20.05% over 5 sessions, -$470.51M estimated flow.",
+    "tickers": [
+     "QTUM",
+     "IONQ",
+     "RGTI"
     ]
    }
   ],
   "stocks": [
    {
-    "ticker": "AMD",
-    "note": "-8.75% on 1.8x volume, -$18.59B flow."
+    "ticker": "HOOD",
+    "note": "-7.45% on 1.4x volume, -$1.48B flow."
    },
    {
-    "ticker": "AVGO",
-    "note": "-4.76% on 1.3x volume, -$4.93B flow."
+    "ticker": "EWT",
+    "note": "-6.76% on 1.2x volume, -$669.21M flow."
+   },
+   {
+    "ticker": "TSM",
+    "note": "-6.34% on 1.4x volume, -$6.72B flow."
+   },
+   {
+    "ticker": "COIN",
+    "note": "-6.12% on 1.2x volume, -$553.53M flow."
    },
    {
     "ticker": "COPX",
-    "note": "-2.51% on 1.3x volume, -$113.12M flow."
-   },
-   {
-    "ticker": "NVDA",
-    "note": "-2.01% on 2.4x volume, -$10.85B flow."
+    "note": "-5.37% on 2.5x volume, -$462.89M flow."
    }
   ],
   "risks": [
-   "Only 34.8% of the equity universe sits above its 20-day average; the tape is narrow."
+   "Only 19.1% of the equity universe sits above its 20-day average; the tape is narrow.",
+   "Risk appetite is in the bottom two quintiles; rallies are more likely to be sold."
   ],
   "watch_tomorrow": [
    "Whether today's top inflow vehicles hold their relative volume.",
@@ -157,12 +159,12 @@
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-14T08:41:08+00:00",
+  "started": "2026-11-17T10:17:02+00:00",
   "usage": {
-   "prompt_tokens": 7410,
+   "prompt_tokens": 7814,
    "completion_tokens": 4800,
-   "total_tokens": 12210,
-   "cost": 0.002307459
+   "total_tokens": 12614,
+   "cost": 0.0025507
   },
   "model_returned": "deepseek/deepseek-v4-flash",
   "finish_reason": "length",
@@ -170,10 +172,10 @@
   "raw": ""
  },
  "session": {
-  "session_date": "2026-11-13",
+  "session_date": "2026-11-16",
   "status": "prior session",
   "live": false,
-  "market_now": "2026-11-14 03:41",
+  "market_now": "2026-11-17 05:17",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }
