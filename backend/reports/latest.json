@@ -1,181 +1,138 @@
 {
- "generated_at": "2026-11-17T10:17:02+00:00",
- "session_date": "2026-11-16",
+ "generated_at": "2026-11-18T09:48:06+00:00",
+ "session_date": "2026-11-17",
  "brief": {
   "regime": "risk-off",
-  "headline": "Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.",
+  "headline": "Broad sell-off with 81 decliners; Salesforce -9.5% leads software rout",
   "tldr": [
-   "Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.",
-   "Largest estimated outflow: SPY (S&P 500) at -$42.91B, -1.91%.",
-   "Breadth 9.0% advancing across 89 equity instruments; 19.1% above their 20-day average.",
-   "Risk appetite reads risk-off at 21.3/100."
+   "SPY -1.0% on 1.7x volume, 4th straight outflow day.",
+   "Only 9% of names advanced; median stock -1.4%.",
+   "CRM -9.5% on 1.8x volume, bottom 1% of yearly moves.",
+   "Financials XLF -1.9% on 1.8x volume, 4th percentile."
   ],
   "where_money_moved": [
    {
-    "direction": "in",
-    "theme": "COST",
-    "evidence": "+$882.46M estimated net flow, +0.68%, 1.4x relative volume.",
+    "direction": "out",
+    "theme": "Software & cloud",
+    "evidence": "CRM -9.5% with $2.4B outflow, 1.8x volume, bottom 1% of yearly moves.",
     "vehicles": [
-     "COST"
-    ]
-   },
-   {
-    "direction": "in",
-    "theme": "UNH",
-    "evidence": "+$371.43M estimated net flow, +1.12%, 1.0x relative volume.",
-    "vehicles": [
-     "UNH"
-    ]
-   },
-   {
-    "direction": "in",
-    "theme": "ADBE",
-    "evidence": "+$134.77M estimated net flow, +1.20%, 1.1x relative volume.",
-    "vehicles": [
+     "CRM",
+     "MSFT",
      "ADBE"
     ]
    },
    {
     "direction": "out",
-    "theme": "SPY",
-    "evidence": "-$42.91B estimated net flow, -1.91%, 1.7x relative volume.",
+    "theme": "Semis & AI compute",
+    "evidence": "TSM -3.7% with $3.9B outflow, 1.7x volume, 7th percentile.",
     "vehicles": [
-     "SPY"
+     "TSM",
+     "NVDA",
+     "MU"
     ]
    },
    {
-    "direction": "out",
-    "theme": "NVDA",
-    "evidence": "-$25.33B estimated net flow, -4.12%, 2.0x relative volume.",
+    "direction": "in",
+    "theme": "Semis & AI compute",
+    "evidence": "AVGO +2.5% with $3.0B inflow, 81st percentile, reversing prior outflow.",
     "vehicles": [
-     "NVDA"
-    ]
-   },
-   {
-    "direction": "out",
-    "theme": "QQQ",
-    "evidence": "-$23.17B estimated net flow, -2.67%, 1.0x relative volume.",
-    "vehicles": [
-     "QQQ"
+     "AVGO",
+     "ARM"
     ]
    }
   ],
   "who_is_driving": [
    {
-    "name": "NVDA",
-    "why": "18.1% of today's dollar-weighted movement (down), -4.12% on -$25.33B estimated flow."
-   },
-   {
-    "name": "MU",
-    "why": "12.4% of today's dollar-weighted movement (down), -7.62% on -$13.88B estimated flow."
-   },
-   {
-    "name": "AMD",
-    "why": "8.6% of today's dollar-weighted movement (down), -5.58% on -$9.35B estimated flow."
-   },
-   {
     "name": "SPY",
-    "why": "8.3% of today's dollar-weighted movement (down), -1.91% on -$42.91B estimated flow."
+    "why": "11.8% of the session's dollar-weighted move; -1.0% on 1.7x volume, 4th straight outflow day."
    },
    {
-    "name": "QQQ",
-    "why": "6.4% of today's dollar-weighted movement (down), -2.67% on -$23.17B estimated flow."
+    "name": "TSM",
+    "why": "7.3% of the session's dollar-weighted move; -3.7% on 1.7x volume, 7th percentile."
+   },
+   {
+    "name": "CRM",
+    "why": "5.4% of the session's dollar-weighted move; -9.5% on 1.8x volume, bottom 1% of yearly moves."
    }
   ],
   "key_tech": [
    {
-    "tech": "Cybersecurity",
-    "signal": "-1.22% today, -1.26% over 5 sessions, -$2.56M estimated flow.",
+    "tech": "AI compute & semis",
+    "signal": "Money split: AVGO +2.5% with $3.0B inflow, but TSM -3.7% with $3.9B outflow.",
     "tickers": [
-     "HACK"
+     "AVGO",
+     "TSM",
+     "ARM"
     ]
    },
    {
-    "tech": "Robotics & automation",
-    "signal": "-3.55% today, -5.52% over 5 sessions, -$22.79M estimated flow.",
+    "tech": "Software & cloud",
+    "signal": "CRM -9.5% led $9.6B outflow; MSFT -2.3% with $4.2B outflow, 8th percentile.",
     "tickers": [
-     "BOTZ"
+     "CRM",
+     "MSFT",
+     "ADBE"
     ]
    },
    {
-    "tech": "Defense",
-    "signal": "-2.46% today, -2.68% over 5 sessions, -$97.07M estimated flow.",
+    "tech": "Crypto rails",
+    "signal": "MSTR -6.3% with $1.5B outflow; BTC -0.6% on 1.1x volume, 4th straight outflow day.",
     "tickers": [
-     "ITA"
-    ]
-   },
-   {
-    "tech": "AI power & grid",
-    "signal": "-3.65% today, -8.85% over 5 sessions, -$450.38M estimated flow.",
-    "tickers": [
-     "GRID",
-     "NLR",
-     "URA",
-     "VST"
+     "MSTR",
+     "BTC-USD"
     ]
    },
    {
     "tech": "Quantum",
-    "signal": "-6.19% today, -20.05% over 5 sessions, -$470.51M estimated flow.",
+    "signal": "RGTI -6.6% with 1.2x volume; theme -4.8% with $318M outflow.",
     "tickers": [
-     "QTUM",
-     "IONQ",
-     "RGTI"
+     "RGTI",
+     "QTUM"
     ]
    }
   ],
   "stocks": [
    {
-    "ticker": "HOOD",
-    "note": "-7.45% on 1.4x volume, -$1.48B flow."
+    "ticker": "CRM",
+    "note": "9.5% on 1.8x volume, bottom 1% of yearly moves; $2.4B outflow."
    },
    {
-    "ticker": "EWT",
-    "note": "-6.76% on 1.2x volume, -$669.21M flow."
+    "ticker": "UNH",
+    "note": "5.4% on 1.8x volume, bottom 1% of yearly moves; $2.5B outflow."
    },
    {
-    "ticker": "TSM",
-    "note": "-6.34% on 1.4x volume, -$6.72B flow."
-   },
-   {
-    "ticker": "COIN",
-    "note": "-6.12% on 1.2x volume, -$553.53M flow."
-   },
-   {
-    "ticker": "COPX",
-    "note": "-5.37% on 2.5x volume, -$462.89M flow."
+    "ticker": "AVGO",
+    "note": "+2.5% with $3.0B inflow, 81st percentile; reversed prior outflow."
    }
   ],
   "risks": [
-   "Only 19.1% of the equity universe sits above its 20-day average; the tape is narrow.",
-   "Risk appetite is in the bottom two quintiles; rallies are more likely to be sold."
+   "SPY 4th straight outflow day with $65.5B cumulative; momentum could accelerate.",
+   "Financials XLF at 4th percentile; a break below could signal deeper rotation."
   ],
   "watch_tomorrow": [
-   "Whether today's top inflow vehicles hold their relative volume.",
-   "Follow-through in the weakest sector (see rotation table)."
+   "AVGO follow-through: can it hold after a reversal inflow?",
+   "CRM and UNH: any recovery or continued selling on elevated volume."
   ],
-  "confidence": null,
-  "generated_by": "fallback-templates"
+  "confidence": 0.85,
+  "generated_by": "openrouter"
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-17T10:17:02+00:00",
+  "started": "2026-11-18T09:48:06+00:00",
   "usage": {
-   "prompt_tokens": 7814,
-   "completion_tokens": 4800,
-   "total_tokens": 12614,
-   "cost": 0.0025507
+   "prompt_tokens": 7488,
+   "completion_tokens": 1016,
+   "total_tokens": 8504,
+   "cost": 0.0012852
   },
   "model_returned": "deepseek/deepseek-v4-flash",
-  "finish_reason": "length",
-  "error": "unparseable model output (finish_reason=length)",
-  "raw": ""
+  "finish_reason": "stop"
  },
  "session": {
-  "session_date": "2026-11-16",
+  "session_date": "2026-11-17",
   "status": "prior session",
   "live": false,
-  "market_now": "2026-11-17 05:17",
+  "market_now": "2026-11-18 04:48",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }

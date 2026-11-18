@@ -1,22 +1,22 @@
-# Money Trace - 2026-11-16
+# Money Trace - 2026-11-17
 
-**Session:** prior session (America/New_York) | **Generated:** 2026-11-17T10:17:02+00:00 | **Coverage:** 111 instruments | **History:** 3 session(s)
+**Session:** prior session (America/New_York) | **Generated:** 2026-11-18T09:48:06+00:00 | **Coverage:** 111 instruments | **History:** 4 session(s)
 
-> **Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.**
+> **Broad sell-off with 81 decliners; Salesforce -9.5% leads software rout**
 
 ```
-Risk appetite [####----------------] 21/100  RISK-OFF
-Breadth       9.0% advancing (8 up / 81 down)  |  19.1% above 20d MA  |  median -2.61%
-Tape          SPY -1.91%  QQQ -2.67%  IWM -1.66%  RSP -1.01%
-Crypto        BTC -0.87%  |  VIX 23.68
+Risk appetite [#####---------------] 25/100  RISK-OFF
+Breadth       9.0% advancing (8 up / 81 down)  |  14.6% above 20d MA  |  median -1.41%
+Tape          SPY -1.01%  QQQ -0.73%  IWM -1.43%  RSP -1.45%
+Crypto        BTC -0.59%  |  VIX 23.51
 ```
 
 **The short version**
 
-- Largest estimated inflow: COST (Costco) at +$882.46M on 1.4x volume, +0.68%.
-- Largest estimated outflow: SPY (S&P 500) at -$42.91B, -1.91%.
-- Breadth 9.0% advancing across 89 equity instruments; 19.1% above their 20-day average.
-- Risk appetite reads risk-off at 21.3/100.
+- SPY -1.0% on 1.7x volume, 4th straight outflow day.
+- Only 9% of names advanced; median stock -1.4%.
+- CRM -9.5% on 1.8x volume, bottom 1% of yearly moves.
+- Financials XLF -1.9% on 1.8x volume, 4th percentile.
 
 ## 1. Where the money moved
 
@@ -24,198 +24,193 @@ Crypto        BTC -0.87%  |  VIX 23.68
 
 | Group          | Net flow (est) | Dollar volume | Avg move |
 | -------------- | -------------: | ------------: | -------: |
-| Credit & rates |        -$1.09B |        $8.07B |   -0.00% |
-| Sectors        |        -$6.37B |       $14.97B |   -1.18% |
-| Global         |        -$6.53B |        $8.71B |   -2.66% |
-| Themes         |        -$8.82B |       $13.17B |   -2.89% |
-| Single stocks  |       -$11.37B |       $32.96B |   -3.55% |
-| Indexes        |       -$73.39B |       $90.59B |   -1.74% |
-| Mega-cap tech  |      -$101.79B |      $196.89B |   -4.10% |
+| Credit & rates |       -$134.6M |        $9.57B |   +0.10% |
+| Global         |        -$2.05B |        $8.87B |   -1.03% |
+| Themes         |        -$2.95B |       $14.46B |   -1.50% |
+| Sectors        |        -$8.15B |       $16.59B |   -1.20% |
+| Single stocks  |       -$11.42B |       $30.94B |   -3.05% |
+| Mega-cap tech  |       -$17.23B |      $206.79B |   -1.49% |
+| Indexes        |       -$26.68B |      $100.78B |   -1.25% |
 
 **Biggest estimated inflows**
 
-| Ticker | Name          | Group         |     1D | Flow (est) | RVOL |      5D |
-| ------ | ------------- | ------------- | -----: | ---------: | ---: | ------: |
-| COST   | Costco        | Single stocks | +0.68% |   +$882.5M | 1.4x |  +4.46% |
-| UNH    | UnitedHealth  | Single stocks | +1.12% |   +$371.4M | 1.0x |  +3.62% |
-| ADBE   | Adobe         | Mega-cap tech | +1.20% |   +$134.8M | 1.1x |  +3.66% |
-| WMT    | Walmart       | Single stocks | +0.25% |    +$64.4M | 0.9x |  +2.19% |
-| XLP    | Cons. Staples | Sectors       | +0.27% |    +$53.6M | 1.1x |  +1.88% |
-| XLU    | Utilities     | Sectors       | +0.18% |    +$40.3M | 0.8x |  +0.75% |
-| INDA   | India         | Global        | +0.21% |    +$19.5M | 1.0x |  +0.29% |
-| JETS   | Airlines      | Themes        | +0.62% |     +$5.9M | 0.6x |  -3.91% |
-| HACK   | Cybersecurity | Themes        | -1.22% |     -$2.6M | 0.5x |  -1.26% |
-| NNE    | Nano Nuclear  | Single stocks | -3.33% |     -$2.7M | 1.0x | -13.94% |
+| Ticker | Name              | Group         |     1D | Flow (est) | RVOL |     5D |
+| ------ | ----------------- | ------------- | -----: | ---------: | ---: | -----: |
+| AVGO   | Broadcom          | Mega-cap tech | +2.46% |    +$2.98B | 1.0x | +2.90% |
+| ARM    | Arm Holdings      | Mega-cap tech | +4.76% |   +$513.8M | 1.1x | +1.05% |
+| INDA   | India             | Global        | +0.66% |   +$167.1M | 1.2x | +0.35% |
+| TSLA   | Tesla             | Mega-cap tech | +0.10% |   +$121.2M | 0.6x | +0.09% |
+| GDX    | Gold miners       | Themes        | +0.79% |    +$84.6M | 1.0x | -8.00% |
+| AMZN   | Amazon            | Mega-cap tech | +0.05% |    +$81.8M | 1.0x | -4.79% |
+| XOM    | Exxon Mobil       | Single stocks | +0.20% |    +$44.0M | 0.9x | +2.31% |
+| EWZ    | Brazil            | Global        | +0.32% |    +$32.0M | 0.6x | -3.51% |
+| NNE    | Nano Nuclear      | Single stocks | -2.33% |     -$1.8M | 1.1x | -9.41% |
+| LIT    | Lithium & battery | Themes        | -0.74% |     -$2.3M | 1.0x | -5.94% |
 
 **Biggest estimated outflows**
 
-| Ticker | Name       | Group         |     1D | Flow (est) | RVOL |      5D |
-| ------ | ---------- | ------------- | -----: | ---------: | ---: | ------: |
-| SPY    | S&P 500    | Indexes       | -1.91% |   -$42.91B | 1.7x |  -1.69% |
-| NVDA   | NVIDIA     | Mega-cap tech | -4.12% |   -$25.33B | 2.0x | -12.61% |
-| QQQ    | Nasdaq 100 | Indexes       | -2.67% |   -$23.17B | 1.0x |  -2.59% |
-| MU     | Micron     | Mega-cap tech | -7.62% |   -$13.88B | 0.8x |  -1.93% |
-| AMD    | AMD        | Mega-cap tech | -5.58% |    -$9.35B | 1.1x |  -0.85% |
-| GOOGL  | Alphabet   | Mega-cap tech | -4.07% |    -$8.59B | 1.0x |  -1.54% |
-| AMZN   | Amazon     | Mega-cap tech | -3.34% |    -$7.98B | 1.2x |  -3.44% |
-| TSM    | TSMC       | Mega-cap tech | -6.34% |    -$6.72B | 1.4x |  -3.90% |
-| TSLA   | Tesla      | Mega-cap tech | -2.69% |    -$4.61B | 0.8x |  +0.45% |
-| MSFT   | Microsoft  | Mega-cap tech | -1.12% |    -$4.56B | 1.1x |  -4.99% |
+| Ticker | Name                 | Group         |     1D | Flow (est) | RVOL |     5D |
+| ------ | -------------------- | ------------- | -----: | ---------: | ---: | -----: |
+| SPY    | S&P 500              | Indexes       | -1.01% |   -$15.78B | 1.7x | -2.33% |
+| MSFT   | Microsoft            | Mega-cap tech | -2.27% |    -$4.24B | 1.0x | -5.05% |
+| IWM    | Russell 2000         | Indexes       | -1.43% |    -$3.94B | 1.2x | -4.11% |
+| TSM    | TSMC                 | Mega-cap tech | -3.68% |    -$3.88B | 1.7x | -9.28% |
+| QQQ    | Nasdaq 100           | Indexes       | -0.73% |    -$3.30B | 1.3x | -2.64% |
+| XLF    | Financials           | Sectors       | -1.91% |    -$2.81B | 1.8x | -2.09% |
+| UNH    | UnitedHealth         | Single stocks | -5.42% |    -$2.51B | 1.8x | -3.81% |
+| CRM    | Salesforce           | Mega-cap tech | -9.45% |    -$2.44B | 1.8x | -8.88% |
+| RSP    | S&P 500 equal-weight | Indexes       | -1.45% |    -$2.20B | 1.3x | -2.32% |
+| JPM    | JPMorgan             | Single stocks | -2.44% |    -$2.18B | 1.3x | -3.54% |
 
 **Money that keeps moving the same way**
 
 | Ticker  | Name         | Streak | Cumulative flow | 5D move |
 | ------- | ------------ | ------ | --------------: | ------: |
-| SPY     | S&P 500      | 3d out |        -$49.67B |  -1.69% |
-| BTC-USD | Bitcoin      | 3d out |        -$42.41B |  -9.89% |
-| NVDA    | NVIDIA       | 3d out |        -$40.51B | -12.61% |
-| QQQ     | Nasdaq 100   | 3d out |        -$30.99B |  -2.59% |
-| AMD     | AMD          | 2d out |        -$27.95B |  -0.85% |
-| MU      | Micron       | 3d out |        -$16.58B |  -1.93% |
-| GOOGL   | Alphabet     | 2d out |        -$10.36B |  -1.54% |
-| IWM     | Russell 2000 | 3d out |         -$9.62B |  -3.39% |
+| SPY     | S&P 500      | 4d out |        -$65.45B |  -2.33% |
+| BTC-USD | Bitcoin      | 4d out |        -$44.62B |  -5.48% |
+| NVDA    | NVIDIA       | 4d out |        -$41.78B |  -7.95% |
+| QQQ     | Nasdaq 100   | 4d out |        -$34.29B |  -2.64% |
+| AMD     | AMD          | 3d out |        -$28.04B |  -2.29% |
+| MU      | Micron       | 4d out |        -$17.14B |  -1.75% |
+| IWM     | Russell 2000 | 4d out |        -$13.57B |  -4.11% |
+| GOOGL   | Alphabet     | 3d out |        -$12.11B |  -2.50% |
 
 **Flow reversals vs the prior session**
 
-- **MSFT** (Microsoft) flipped to net out: +$549.4M -> -$4.56B, -1.12% today.
-- **AAPL** (Apple) flipped to net out: +$215.2M -> -$4.41B, -0.98% today.
-- **GS** (Goldman Sachs) flipped to net out: +$78.0M -> -$2.35B, -2.73% today.
-- **JPM** (JPMorgan) flipped to net out: +$539.1M -> -$1.95B, -2.31% today.
-- **XOM** (Exxon Mobil) flipped to net out: +$183.9M -> -$1.64B, -1.56% today.
-- **DIA** (Dow 30) flipped to net out: +$77.0M -> -$1.56B, -1.43% today.
+- **AVGO** (Broadcom) flipped to net in: -$2.43B -> +$2.98B, +2.46% today.
+- **UNH** (UnitedHealth) flipped to net out: +$371.4M -> -$2.51B, -5.42% today.
+- **XLP** (Cons. Staples) flipped to net out: +$53.6M -> -$1.10B, -1.23% today.
+- **XLU** (Utilities) flipped to net out: +$40.3M -> -$1.00B, -1.59% today.
+- **ADBE** (Adobe) flipped to net out: +$134.8M -> -$914.3M, -4.25% today.
+- **WMT** (Walmart) flipped to net out: +$64.4M -> -$580.8M, -0.69% today.
+
+**Read**
+
+- **OUT Software & cloud** CRM -9.5% with $2.4B outflow, 1.8x volume, bottom 1% of yearly moves. _CRM, MSFT, ADBE_
+- **OUT Semis & AI compute** TSM -3.7% with $3.9B outflow, 1.7x volume, 7th percentile. _TSM, NVDA, MU_
+- **IN Semis & AI compute** AVGO +2.5% with $3.0B inflow, 81st percentile, reversing prior outflow. _AVGO, ARM_
 
 ## 2. Rotation map
 
 | Sector              |     1D |     5D |     20D |  Flow 1D |  Flow 5D | RVOL | vs SPY 5D | Quadrant |
 | ------------------- | -----: | -----: | ------: | -------: | -------: | ---: | --------: | -------- |
-| Cons. Staples       | +0.27% | +1.88% |  +6.18% |  +$53.6M |  +$1.54B | 1.1x |    +3.6pp | leading  |
-| Utilities           | +0.18% | +0.75% |  +6.67% |  +$40.3M | +$297.2M | 0.8x |    +2.5pp | leading  |
-| Real Estate         | -0.27% | -0.87% |  +6.19% |  -$34.2M | -$105.8M | 0.8x |    +0.8pp | lagging  |
-| Health Care         | -0.51% | -0.24% |  +6.96% | -$422.5M | -$352.1M | 1.1x |    +1.4pp | lagging  |
-| Financials          | -0.85% | +0.33% |  +5.67% | -$736.4M | +$392.5M | 1.3x |    +2.0pp | leading  |
-| Materials           | -1.46% | -2.78% |  +1.02% | -$440.7M | -$717.3M | 1.3x |    -1.1pp | lagging  |
-| Cons. Discretionary | -1.53% | -2.36% |  +3.22% | -$507.3M | -$748.1M | 1.2x |    -0.7pp | lagging  |
-| Comm. Services      | -1.72% | -0.50% |  -2.97% | -$435.2M | -$186.2M | 0.8x |    +1.2pp | lagging  |
-| Industrials         | -1.85% | -1.91% |  -0.61% |  -$1.17B |  -$1.14B | 1.1x |    -0.2pp | lagging  |
-| Energy              | -1.96% | +2.83% |  -6.06% |  -$1.23B |  +$1.21B | 0.9x |    +4.5pp | leading  |
-| Technology          | -3.24% | -3.58% | -11.40% |  -$1.50B |  -$1.26B | 1.2x |    -1.9pp | lagging  |
+| Energy              | -0.52% | +1.85% |  -6.78% | -$222.9M | +$649.9M | 0.7x |    +4.2pp | leading  |
+| Industrials         | -0.55% | -2.36% |  -1.23% | -$231.3M |  -$1.33B | 1.0x |    -0.0pp | lagging  |
+| Cons. Discretionary | -0.89% | -3.26% |  +1.39% | -$317.7M |  -$1.05B | 1.1x |    -0.9pp | lagging  |
+| Technology          | -0.91% | -3.35% | -11.96% | -$240.9M |  -$1.20B | 1.5x |    -1.0pp | lagging  |
+| Materials           | -1.22% | -3.80% |  -0.76% | -$334.9M |  -$1.01B | 1.1x |    -1.5pp | lagging  |
+| Cons. Staples       | -1.23% | +0.47% |  +4.23% |  -$1.10B | +$331.1M | 1.0x |    +2.8pp | leading  |
+| Health Care         | -1.41% | -1.93% |  +3.01% |  -$1.16B |  -$1.73B | 1.3x |    +0.4pp | lagging  |
+| Comm. Services      | -1.46% | -2.32% |  -4.47% | -$496.1M | -$764.7M | 1.0x |    +0.0pp | lagging  |
+| Real Estate         | -1.49% | -2.22% |  +2.86% | -$240.6M | -$340.8M | 0.8x |    +0.1pp | lagging  |
+| Utilities           | -1.59% | -0.71% |  +3.68% |  -$1.00B | -$703.5M | 1.1x |    +1.6pp | lagging  |
+| Financials          | -1.91% | -2.09% |  +2.42% |  -$2.81B |  -$2.79B | 1.8x |    +0.2pp | lagging  |
 
-- **Leading** (price and flow up): Cons. Staples, Utilities, Financials
+- **Leading** (price and flow up): Energy, Cons. Staples
 - **Accumulating** (flow up, price still down): none
-- **Lagging** (both down): Real Estate, Health Care, Materials
+- **Lagging** (both down): Industrials, Cons. Discretionary, Technology
 
 ## 3. Who is driving the tape
 
 Share of the session's dollar-weighted movement: each name's slice of traded dollars times its move, normalised across the equity universe. This is activity share, not official index weight.
 
-| Ticker | Name           |     1D | Traded $ share | Share of move | Flow (est) | RVOL |
-| ------ | -------------- | -----: | -------------: | ------------: | ---------: | ---: |
-| NVDA   | NVIDIA         | -4.12% |          14.5% |         18.1% |   -$25.33B | 2.0x |
-| MU     | Micron         | -7.62% |           5.4% |         12.4% |   -$13.88B | 0.8x |
-| AMD    | AMD            | -5.58% |           5.1% |          8.6% |    -$9.35B | 1.1x |
-| SPY    | S&P 500        | -1.91% |          14.3% |          8.3% |   -$42.91B | 1.7x |
-| QQQ    | Nasdaq 100     | -2.67% |           7.9% |          6.4% |   -$23.17B | 1.0x |
-| TSM    | TSMC           | -6.34% |           2.0% |          3.9% |    -$6.72B | 1.4x |
-| AMZN   | Amazon         | -3.34% |           3.5% |          3.5% |    -$7.98B | 1.2x |
-| GOOGL  | Alphabet       | -4.07% |           2.8% |          3.4% |    -$8.59B | 1.0x |
-| INTC   | Intel          | -7.02% |           1.6% |          3.4% |    -$2.68B | 0.6x |
-| AVGO   | Broadcom       | -3.92% |           2.4% |          2.9% |    -$2.43B | 1.0x |
-| TSLA   | Tesla          | -2.69% |           3.2% |          2.6% |    -$4.61B | 0.8x |
-| SMH    | Semiconductors | -5.11% |           1.3% |          2.0% |    -$3.53B | 0.9x |
+| Ticker | Name            |     1D | Traded $ share | Share of move | Flow (est) | RVOL |
+| ------ | --------------- | -----: | -------------: | ------------: | ---------: | ---: |
+| SPY    | S&P 500         | -1.01% |          13.8% |         11.8% |   -$15.78B | 1.7x |
+| TSM    | TSMC            | -3.68% |           2.4% |          7.3% |    -$3.88B | 1.7x |
+| MSFT   | Microsoft       | -2.27% |           3.7% |          7.1% |    -$4.24B | 1.0x |
+| NVDA   | NVIDIA          | -0.44% |          16.4% |          6.0% |    -$1.27B | 2.2x |
+| QQQ    | Nasdaq 100      | -0.73% |           9.6% |          5.8% |    -$3.30B | 1.3x |
+| CRM    | Salesforce      | -9.45% |           0.7% |          5.4% |    -$2.44B | 1.8x |
+| AVGO   | Broadcom        | +2.46% |           2.4% |          4.8% |    +$2.98B | 1.0x |
+| MU     | Micron          | -0.92% |           6.2% |          4.8% |   -$555.8M | 1.1x |
+| UNH    | UnitedHealth    | -5.42% |           0.8% |          3.8% |    -$2.51B | 1.8x |
+| MSTR   | Strategy (MSTR) | -6.34% |           0.6% |          3.2% |    -$1.51B | 1.1x |
+| GOOGL  | Alphabet        | -1.24% |           2.4% |          2.5% |    -$1.75B | 0.9x |
+| IWM    | Russell 2000    | -1.43% |           2.0% |          2.4% |    -$3.94B | 1.2x |
 
-- **NVDA** - 18.1% of today's dollar-weighted movement (down), -4.12% on -$25.33B estimated flow.
-- **MU** - 12.4% of today's dollar-weighted movement (down), -7.62% on -$13.88B estimated flow.
-- **AMD** - 8.6% of today's dollar-weighted movement (down), -5.58% on -$9.35B estimated flow.
-- **SPY** - 8.3% of today's dollar-weighted movement (down), -1.91% on -$42.91B estimated flow.
-- **QQQ** - 6.4% of today's dollar-weighted movement (down), -2.67% on -$23.17B estimated flow.
+- **SPY** - 11.8% of the session's dollar-weighted move; -1.0% on 1.7x volume, 4th straight outflow day.
+- **TSM** - 7.3% of the session's dollar-weighted move; -3.7% on 1.7x volume, 7th percentile.
+- **CRM** - 5.4% of the session's dollar-weighted move; -9.5% on 1.8x volume, bottom 1% of yearly moves.
 
 ## 4. Key technologies and themes
 
 | Stack                 |     1D |      5D | Flow (est) | Leader      | Laggard     | Breadth |
 | --------------------- | -----: | ------: | ---------: | ----------- | ----------- | ------: |
-| Cybersecurity         | -1.22% |  -1.26% |     -$2.6M | HACK -1.22% | -           |   0% up |
-| Robotics & automation | -3.55% |  -5.52% |    -$22.8M | BOTZ -3.55% | -           |   0% up |
-| Defense               | -2.46% |  -2.68% |    -$97.1M | ITA -2.46%  | -           |   0% up |
-| AI power & grid       | -3.65% |  -8.85% |   -$450.4M | CEG -0.70%  | SMR -8.37%  |   0% up |
-| Quantum               | -6.19% | -20.05% |   -$470.5M | QTUM -4.33% | IONQ -8.41% |   0% up |
-| China tech            | -1.05% |  -5.53% |   -$491.3M | FXI -0.48%  | KWEB -1.61% |   0% up |
-| Energy transition     | -3.85% |  -9.82% |   -$544.3M | LIT -3.27%  | COPX -5.37% |   0% up |
-| Biotech               | -1.96% |  -2.75% |    -$2.25B | LLY -0.82%  | XBI -3.10%  |   0% up |
-| Crypto rails          | -6.72% | -11.62% |    -$3.81B | MARA -5.01% | MSTR -7.70% |   0% up |
-| Software & cloud      | -1.76% |  -0.89% |    -$6.35B | ADBE +1.20% | ORCL -4.99% |  17% up |
-| Consumer              | -1.00% |  -0.06% |    -$7.27B | COST +0.68% | AMZN -3.34% |  50% up |
-| AI compute & semis    | -5.84% |  -4.15% |   -$64.06B | AVGO -3.92% | ARM -8.12%  |   0% up |
+| Cybersecurity         | -1.49% |  -2.25% |     -$7.9M | HACK -1.49% | -           |   0% up |
+| Robotics & automation | -1.36% |  -5.89% |     -$8.9M | BOTZ -1.36% | -           |   0% up |
+| Defense               | -0.21% |  -3.80% |     -$8.9M | ITA -0.22%  | -           |   0% up |
+| Energy transition     | -2.27% |  -9.17% |   -$174.3M | COPX -0.31% | TAN -5.17%  |   0% up |
+| Quantum               | -4.79% | -21.76% |   -$318.2M | QTUM -1.65% | RGTI -6.62% |   0% up |
+| Biotech               | -0.77% |  -3.68% |   -$697.2M | XBI -0.41%  | LLY -1.13%  |   0% up |
+| AI power & grid       | -2.27% |  -7.83% |   -$819.1M | GRID -0.63% | SMR -4.22%  |   0% up |
+| China tech            | -1.72% |  -6.34% |   -$879.2M | FXI -1.32%  | KWEB -2.13% |   0% up |
+| Consumer              | -0.60% |  -0.90% |    -$1.17B | AMZN +0.05% | XRT -1.45%  |  25% up |
+| Crypto rails          | -4.58% | -15.33% |    -$2.69B | MARA -3.31% | MSTR -6.34% |   0% up |
+| AI compute & semis    | -0.01% |  -3.81% |    -$2.85B | ARM +4.76%  | TSM -3.68%  |  25% up |
+| Software & cloud      | -4.26% |  -4.13% |    -$9.59B | MSFT -2.27% | CRM -9.45%  |   0% up |
 
-- **Cybersecurity** - -1.22% today, -1.26% over 5 sessions, -$2.56M estimated flow. _HACK_
-- **Robotics & automation** - -3.55% today, -5.52% over 5 sessions, -$22.79M estimated flow. _BOTZ_
-- **Defense** - -2.46% today, -2.68% over 5 sessions, -$97.07M estimated flow. _ITA_
-- **AI power & grid** - -3.65% today, -8.85% over 5 sessions, -$450.38M estimated flow. _GRID, NLR, URA, VST_
-- **Quantum** - -6.19% today, -20.05% over 5 sessions, -$470.51M estimated flow. _QTUM, IONQ, RGTI_
+- **AI compute & semis** - Money split: AVGO +2.5% with $3.0B inflow, but TSM -3.7% with $3.9B outflow. _AVGO, TSM, ARM_
+- **Software & cloud** - CRM -9.5% led $9.6B outflow; MSFT -2.3% with $4.2B outflow, 8th percentile. _CRM, MSFT, ADBE_
+- **Crypto rails** - MSTR -6.3% with $1.5B outflow; BTC -0.6% on 1.1x volume, 4th straight outflow day. _MSTR, BTC-USD_
+- **Quantum** - RGTI -6.6% with 1.2x volume; theme -4.8% with $318M outflow. _RGTI, QTUM_
 
 ## 5. Cross-asset check
 
 | Instrument        | Level        |     1D |      1W |      1M |
 | ----------------- | ------------ | -----: | ------: | ------: |
-| US 10Y yield      | 5.12% (-3bp) |   -3bp |   +26bp |    -2bp |
-| US 5Y yield       | 4.93% (-5bp) |   -5bp |   +28bp |    +1bp |
-| US 30Y yield      | 5.47% (-1bp) |   -1bp |   +21bp |    -0bp |
-| US 13W bill       | 4.12% (+0bp) |   +0bp |    +9bp |    +5bp |
-| US dollar index   | 103.55       | +0.00% |  +1.29% |  +1.79% |
-| VIX volatility    | 23.68        | +3.36% | +21.69% | +36.80% |
-| Gold futures      | 3,862        | +0.25% |  -4.16% |  -6.76% |
-| WTI crude         | 85.93        | +0.24% |  -0.13% | -15.58% |
-| Copper futures    | 5.97         | -0.47% |  -4.02% |  -9.09% |
-| 20Y+ Treasuries   | 79.38        | +0.00% |  -3.15% |  +0.32% |
-| 7-10Y Treasuries  | 90.24        | +0.22% |  -1.70% |  +0.52% |
-| High-yield credit | 76.73        | -0.27% |  -1.01% |  +0.39% |
-| IG credit         | 102.80       | -0.01% |  -1.79% |  +0.31% |
+| US 10Y yield      | 5.10% (-2bp) |   -2bp |   +12bp |    -1bp |
+| US 5Y yield       | 4.90% (-4bp) |   -4bp |    +9bp |    -4bp |
+| US 30Y yield      | 5.46% (-1bp) |   -1bp |   +11bp |    +3bp |
+| US 13W bill       | 4.14% (+1bp) |   +1bp |    +2bp |    +6bp |
+| US dollar index   | 103.77       | +0.27% |  +0.83% |  +1.95% |
+| VIX volatility    | 23.51        | -7.66% | +34.42% | +40.95% |
+| Gold futures      | 3,784        | -2.07% |  -5.41% |  -8.81% |
+| WTI crude         | 83.35        | -3.09% |  -3.67% | -14.20% |
+| Copper futures    | 5.74         | -3.89% |  -8.46% | -12.22% |
+| 20Y+ Treasuries   | 79.55        | +0.21% |  -1.64% |  -0.31% |
+| 7-10Y Treasuries  | 90.41        | +0.19% |  -0.66% |  +0.52% |
+| High-yield credit | 76.63        | -0.13% |  -0.71% |  +0.26% |
+| IG credit         | 102.74       | -0.06% |  -1.10% |  -0.08% |
 
-| Crypto   |   Level |     1D |      1W |      1M | Flow (est) |
-| -------- | ------: | -----: | ------: | ------: | ---------: |
-| Bitcoin  | $64,289 | -0.87% |  -9.89% | -20.89% |    -$5.22B |
-| Ethereum |  $1,801 | -1.00% | -10.70% | -23.60% |    -$1.61B |
-| Solana   |     $72 | +1.36% | -11.24% | -29.15% |   +$403.8M |
+| Crypto   |   Level |     1D |     1W |      1M | Flow (est) |
+| -------- | ------: | -----: | -----: | ------: | ---------: |
+| Bitcoin  | $64,511 | -0.59% | -5.48% | -17.05% |    -$2.21B |
+| Ethereum |  $1,809 | -0.75% | -6.14% | -19.57% |   -$864.8M |
+| Solana   |     $75 | -0.31% | -4.13% | -21.60% |    -$69.5M |
 
 ## 6. Unusual activity
 
 Moves of 2%+ on at least 1.2x normal volume.
 
-| Ticker | Name              |     1D | RVOL | Flow (est) |      5D |     20D |
-| ------ | ----------------- | -----: | ---: | ---------: | ------: | ------: |
-| HOOD   | Robinhood         | -7.45% | 1.4x |    -$1.48B | -13.51% | -25.34% |
-| EWT    | Taiwan            | -6.76% | 1.2x |   -$669.2M |  -5.07% | -15.35% |
-| TSM    | TSMC              | -6.34% | 1.4x |    -$6.72B |  -3.90% | -11.13% |
-| COIN   | Coinbase          | -6.12% | 1.2x |   -$553.5M | -11.95% | -28.86% |
-| COPX   | Copper miners     | -5.37% | 2.5x |   -$462.9M | -12.94% | -17.79% |
-| ARKK   | Innovation (ARK)  | -4.59% | 1.4x |   -$470.5M |  -9.41% | -13.07% |
-| QTUM   | Quantum computing | -4.33% | 1.3x |    -$41.2M |  -4.78% |  -9.95% |
-| NVDA   | NVIDIA            | -4.12% | 2.0x |   -$25.33B | -12.61% | -28.08% |
-| NLR    | Nuclear power     | -3.60% | 1.3x |    -$41.2M |  -9.90% |  -8.66% |
-| TAN    | Solar             | -3.48% | 1.2x |    -$52.4M | -11.02% |  -2.69% |
-| GDX    | Gold miners       | -3.29% | 1.3x |    -$1.37B | -13.68% |  -8.70% |
-| XLK    | Technology        | -3.24% | 1.2x |    -$1.50B |  -3.58% | -11.40% |
-| XBI    | Biotech           | -3.10% | 1.3x |    -$1.31B |  -7.02% |  -1.34% |
-| GS     | Goldman Sachs     | -2.73% | 2.4x |    -$2.35B |  -1.62% |  +1.80% |
+| Ticker | Name         |     1D | RVOL | Flow (est) |      5D |     20D |
+| ------ | ------------ | -----: | ---: | ---------: | ------: | ------: |
+| CRM    | Salesforce   | -9.45% | 1.8x |    -$2.44B |  -8.88% | -19.76% |
+| RGTI   | Rigetti      | -6.62% | 1.2x |    -$67.4M | -30.37% | -27.44% |
+| UNH    | UnitedHealth | -5.42% | 1.8x |    -$2.51B |  -3.81% |  -7.06% |
+| TAN    | Solar        | -5.17% | 1.4x |    -$95.7M | -12.39% |  -8.69% |
+| ADBE   | Adobe        | -4.25% | 1.3x |   -$914.3M |  -0.49% |  -8.25% |
+| TSM    | TSMC         | -3.68% | 1.7x |    -$3.88B |  -9.28% | -15.38% |
+| IGV    | Software     | -3.29% | 1.8x |   -$979.9M |  -4.57% | -10.46% |
+| JPM    | JPMorgan     | -2.44% | 1.3x |    -$2.18B |  -3.54% |  -1.58% |
 
 ## 7. Risks and tomorrow's watchlist
 
 **On the radar**
 
-- **HOOD** - -7.45% on 1.4x volume, -$1.48B flow.
-- **EWT** - -6.76% on 1.2x volume, -$669.21M flow.
-- **TSM** - -6.34% on 1.4x volume, -$6.72B flow.
-- **COIN** - -6.12% on 1.2x volume, -$553.53M flow.
-- **COPX** - -5.37% on 2.5x volume, -$462.89M flow.
+- **CRM** - 9.5% on 1.8x volume, bottom 1% of yearly moves; $2.4B outflow.
+- **UNH** - 5.4% on 1.8x volume, bottom 1% of yearly moves; $2.5B outflow.
+- **AVGO** - +2.5% with $3.0B inflow, 81st percentile; reversed prior outflow.
 
 **What could flip this**
 
-- Only 19.1% of the equity universe sits above its 20-day average; the tape is narrow.
-- Risk appetite is in the bottom two quintiles; rallies are more likely to be sold.
+- SPY 4th straight outflow day with $65.5B cumulative; momentum could accelerate.
+- Financials XLF at 4th percentile; a break below could signal deeper rotation.
 
 **Check tomorrow**
 
-- Whether today's top inflow vehicles hold their relative volume.
-- Follow-through in the weakest sector (see rotation table).
+- AVGO follow-through: can it hold after a reversal inflow?
+- CRM and UNH: any recovery or continued selling on elevated volume.
 
 ---
 
