@@ -1,8 +1,16 @@
 {
  "schema": 1,
- "updated_at": "2026-11-18T09:48:06+00:00",
- "latest": "2026-11-17",
+ "updated_at": "2026-11-19T09:56:51+00:00",
+ "latest": "2026-11-18",
  "sessions": [
+  {
+   "date": "2026-11-18",
+   "headline": "NVDA leads $17.9B outflow; semis split as AMD surges 5.3% on $9.5B inflow.",
+   "regime": "risk-off",
+   "regime_score": 30.8,
+   "spy": -0.003058,
+   "pct_up": 34.8
+  },
   {
    "date": "2026-11-17",
    "headline": "Broad sell-off with 81 decliners; Salesforce -9.5% leads software rout",

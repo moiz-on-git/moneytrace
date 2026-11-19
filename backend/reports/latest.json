@@ -1,138 +1,133 @@
 {
- "generated_at": "2026-11-18T09:48:06+00:00",
- "session_date": "2026-11-17",
+ "generated_at": "2026-11-19T09:56:51+00:00",
+ "session_date": "2026-11-18",
  "brief": {
   "regime": "risk-off",
-  "headline": "Broad sell-off with 81 decliners; Salesforce -9.5% leads software rout",
+  "headline": "NVDA leads $17.9B outflow; semis split as AMD surges 5.3% on $9.5B inflow.",
   "tldr": [
-   "SPY -1.0% on 1.7x volume, 4th straight outflow day.",
-   "Only 9% of names advanced; median stock -1.4%.",
-   "CRM -9.5% on 1.8x volume, bottom 1% of yearly moves.",
-   "Financials XLF -1.9% on 1.8x volume, 4th percentile."
+   "NVDA bled $17.9B, its 5th straight outflow day, down 2.9%.",
+   "UNH crashed 10.2% on 3.4x volume, bottom 1% of its year.",
+   "AMZN and AMD drew $9.6B and $9.5B inflows, up 3.8% and 5.3%.",
+   "Energy and health care sectors saw $3.3B and $3.2B outflows."
   ],
   "where_money_moved": [
    {
-    "direction": "out",
-    "theme": "Software & cloud",
-    "evidence": "CRM -9.5% with $2.4B outflow, 1.8x volume, bottom 1% of yearly moves.",
-    "vehicles": [
-     "CRM",
-     "MSFT",
-     "ADBE"
-    ]
-   },
-   {
-    "direction": "out",
-    "theme": "Semis & AI compute",
-    "evidence": "TSM -3.7% with $3.9B outflow, 1.7x volume, 7th percentile.",
-    "vehicles": [
-     "TSM",
-     "NVDA",
-     "MU"
-    ]
-   },
-   {
     "direction": "in",
-    "theme": "Semis & AI compute",
-    "evidence": "AVGO +2.5% with $3.0B inflow, 81st percentile, reversing prior outflow.",
+    "theme": "Mega-cap tech rotation",
+    "evidence": "AMZN and AMD combined for $19B inflow, 22.4% of the session's dollar-weighted move.",
     "vehicles": [
-     "AVGO",
-     "ARM"
+     "AMZN",
+     "AMD"
+    ]
+   },
+   {
+    "direction": "out",
+    "theme": "Semiconductor leader selloff",
+    "evidence": "NVDA alone accounted for 24.7% of the session's dollar-weighted move with $17.9B outflow.",
+    "vehicles": [
+     "NVDA"
+    ]
+   },
+   {
+    "direction": "out",
+    "theme": "Energy & health care liquidation",
+    "evidence": "XLE and XLV saw $3.3B and $3.2B outflows, both at bottom 3% of their year.",
+    "vehicles": [
+     "XLE",
+     "XLV"
     ]
    }
   ],
   "who_is_driving": [
    {
-    "name": "SPY",
-    "why": "11.8% of the session's dollar-weighted move; -1.0% on 1.7x volume, 4th straight outflow day."
+    "name": "NVDA",
+    "why": "Drove 24.7% of the session's dollar-weighted move with $17.9B outflow on 1.6x volume, 5-day outflow streak."
    },
    {
-    "name": "TSM",
-    "why": "7.3% of the session's dollar-weighted move; -3.7% on 1.7x volume, 7th percentile."
+    "name": "AMD",
+    "why": "15.5% of the session's dollar-weighted move with $9.5B inflow, up 5.3% at the 87th percentile of its year."
    },
    {
-    "name": "CRM",
-    "why": "5.4% of the session's dollar-weighted move; -9.5% on 1.8x volume, bottom 1% of yearly moves."
+    "name": "UNH",
+    "why": "10.1% of the session's dollar-weighted move with $5.1B outflow on 3.4x volume, bottom 1% of its year."
    }
   ],
   "key_tech": [
    {
     "tech": "AI compute & semis",
-    "signal": "Money split: AVGO +2.5% with $3.0B inflow, but TSM -3.7% with $3.9B outflow.",
+    "signal": "Money rotated out of NVDA ($17.9B outflow) into AMD ($9.5B inflow), splitting the theme.",
     "tickers": [
-     "AVGO",
-     "TSM",
-     "ARM"
+     "NVDA",
+     "AMD",
+     "SMH"
     ]
    },
    {
-    "tech": "Software & cloud",
-    "signal": "CRM -9.5% led $9.6B outflow; MSFT -2.3% with $4.2B outflow, 8th percentile.",
+    "tech": "Cybersecurity",
+    "signal": "HACK surged 6.1% on 3.3x volume with $143M inflow, 100% breadth up.",
     "tickers": [
-     "CRM",
-     "MSFT",
-     "ADBE"
+     "HACK"
     ]
    },
    {
     "tech": "Crypto rails",
-    "signal": "MSTR -6.3% with $1.5B outflow; BTC -0.6% on 1.1x volume, 4th straight outflow day.",
+    "signal": "MSTR fell 6.4% with $1.4B outflow, 5-day streak, while BTC rose 1.3% with $10.7B inflow.",
     "tickers": [
      "MSTR",
      "BTC-USD"
     ]
    },
    {
-    "tech": "Quantum",
-    "signal": "RGTI -6.6% with 1.2x volume; theme -4.8% with $318M outflow.",
+    "tech": "Energy transition",
+    "signal": "Copper miners (COPX) dropped 6.3% on 3.1x volume, breadth 0% up.",
     "tickers": [
-     "RGTI",
-     "QTUM"
+     "COPX",
+     "TAN"
     ]
    }
   ],
   "stocks": [
    {
-    "ticker": "CRM",
-    "note": "9.5% on 1.8x volume, bottom 1% of yearly moves; $2.4B outflow."
-   },
-   {
     "ticker": "UNH",
-    "note": "5.4% on 1.8x volume, bottom 1% of yearly moves; $2.5B outflow."
+    "note": "Crashed 10.2% on 3.4x volume, bottom 1% of its year, $5.1B outflow."
    },
    {
-    "ticker": "AVGO",
-    "note": "+2.5% with $3.0B inflow, 81st percentile; reversed prior outflow."
+    "ticker": "AMZN",
+    "note": "Up 3.8% with $9.6B inflow, 97th percentile move, 2-day inflow streak."
+   },
+   {
+    "ticker": "XOM",
+    "note": "Down 4.0% with $2.9B outflow, bottom 2% of its year, 1.3x volume."
    }
   ],
   "risks": [
-   "SPY 4th straight outflow day with $65.5B cumulative; momentum could accelerate.",
-   "Financials XLF at 4th percentile; a break below could signal deeper rotation."
+   "NVDA's 5-day outflow streak ($59.7B cumulative) could deepen if semis rotation continues.",
+   "UNH's 10% drop on 3.4x volume may signal broader health care sector weakness."
   ],
   "watch_tomorrow": [
-   "AVGO follow-through: can it hold after a reversal inflow?",
-   "CRM and UNH: any recovery or continued selling on elevated volume."
+   "Whether AMD's $9.5B inflow sustains or reverses after a 5.3% surge.",
+   "If TLT's +0.8% and yield drop (-3.7bps) attract more bond buying."
   ],
   "confidence": 0.85,
   "generated_by": "openrouter"
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-18T09:48:06+00:00",
+  "started": "2026-11-19T09:56:51+00:00",
   "usage": {
-   "prompt_tokens": 7488,
-   "completion_tokens": 1016,
-   "total_tokens": 8504,
-   "cost": 0.0012852
+   "prompt_tokens": 7489,
+   "completion_tokens": 1057,
+   "total_tokens": 8546,
+   "cost": 0.00107837
   },
   "model_returned": "deepseek/deepseek-v4-flash",
   "finish_reason": "stop"
  },
  "session": {
-  "session_date": "2026-11-17",
+  "session_date": "2026-11-18",
   "status": "prior session",
   "live": false,
-  "market_now": "2026-11-18 04:48",
+  "market_now": "2026-11-19 04:56",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }
