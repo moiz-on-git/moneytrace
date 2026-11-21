@@ -1,8 +1,16 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T09:45:36+00:00",
- "latest": "2026-11-19",
+ "updated_at": "2026-11-21T09:17:37+00:00",
+ "latest": "2026-11-20",
  "sessions": [
+  {
+   "date": "2026-11-20",
+   "headline": "NVDA -14%, 25% of session's move; semis crushed on 7-day outflow streak",
+   "regime": "risk-off",
+   "regime_score": 22.8,
+   "spy": -0.036403,
+   "pct_up": 7.9
+  },
   {
    "date": "2026-11-19",
    "headline": "Mega-cap rout deepens: AMD -7.7%, NVDA -3.3% lead $53B AI semis outflow; VIX at 29.5",

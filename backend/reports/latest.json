@@ -1,136 +1,144 @@
 {
- "generated_at": "2026-11-20T09:45:36+00:00",
- "session_date": "2026-11-19",
+ "generated_at": "2026-11-21T09:17:37+00:00",
+ "session_date": "2026-11-20",
  "brief": {
   "regime": "risk-off",
-  "headline": "Mega-cap rout deepens: AMD -7.7%, NVDA -3.3% lead $53B AI semis outflow; VIX at 29.5",
+  "headline": "NVDA -14%, 25% of session's move; semis crushed on 7-day outflow streak",
   "tldr": [
-   "SPY -1.96% with 1.59x volume, 6th straight outflow day; only 4.5% of stocks advanced.",
-   "AMD accounted for 22.9% of session's dollar-weighted move, its worst day in bottom 3% of past year.",
-   "Cybersecurity (HACK) was lone bright spot, +1.4% on 3.28x volume."
+   "SPY -3.6% on 3x normal volume; only 7.9% of names advanced.",
+   "NVDA -14.0% with -$74.4B flow, bottom 0% of its past year.",
+   "Semis (SMH) -10.6% on 1.9x volume, leading the broad selloff.",
+   "VIX surged 26% to 35.89, last year."
   ],
   "where_money_moved": [
    {
     "direction": "out",
-    "theme": "AI compute & semis",
-    "evidence": "$53.2B outflow, led by AMD -7.7% on 1.88x volume and NVDA -3.3% on 1.38x.",
+    "theme": "AI compute & semiconductors",
+    "evidence": "Massive outflow of -$174.7B across the stack; NVDA alone -$74.4B.",
     "vehicles": [
-     "AMD",
      "NVDA",
+     "AMD",
      "MU",
-     "AVGO"
-    ]
-   },
-   {
-    "direction": "out",
-    "theme": "Mega-cap tech",
-    "evidence": "$102.4B total mega outflow, GOOGL -3.5%, AMZN -3.9%, META -3.3%, MSFT -1.8%.",
-    "vehicles": [
-     "GOOGL",
-     "AMZN",
-     "META",
-     "MSFT"
+     "AVGO",
+     "TSM",
+     "SMH"
     ]
    },
    {
     "direction": "in",
-    "theme": "Cybersecurity",
-    "evidence": "HACK +1.4% with $8M inflow, 3.28x volume, 100% breadth up.",
+    "theme": "Consumer staples & defensive stocks",
+    "evidence": "WMT +1.5% with +$775M inflow and 2.1x volume; XLP +0.67% with +$91M.",
     "vehicles": [
-     "HACK"
+     "WMT",
+     "COST",
+     "XLP"
+    ]
+   },
+   {
+    "direction": "in",
+    "theme": "Long-dated Treasuries & high-grade credit",
+    "evidence": "TLT +1.4% on 1.9x volume; LQD reversed to +$2.6B inflow after prior outflow.",
+    "vehicles": [
+     "TLT",
+     "LQD",
+     "IEF"
     ]
    }
   ],
   "who_is_driving": [
    {
-    "name": "AMD",
-    "why": "7.7%, 22.9% of session's dollar-weighted move, 1.88x volume, bottom 3% of past year."
-   },
-   {
     "name": "NVDA",
-    "why": "3.3%, 13.2% of session's dollar-weighted move, 1.38x volume, 6-day outflow streak."
+    "why": "Drove 25.3% of the session's dollar-weighted move. 14.0% with $74.4B outflow, bottom 0% of its year."
    },
    {
-    "name": "UNH",
-    "why": "5.6%, 3.1% of session's dollar-weighted move, 3.61x volume, bottom 2% of past year."
+    "name": "MU",
+    "why": "Second largest share at 11.2%. 13.9% with $31.2B outflow, bottom 0.4% of its year."
+   },
+   {
+    "name": "AMD",
+    "why": "Contributed 9.1% of the move. 13.2% with $26.7B outflow, also bottom 0.8% of its year."
    }
   ],
   "key_tech": [
    {
     "tech": "AI compute & semis",
-    "signal": "$53.2B outflow, all names negative, AMD laggard -7.7%.",
+    "signal": "Brutal selloff: -$174.7B in outflows, all names in negative territory, NVDA -14%.",
     "tickers": [
      "SMH",
+     "NVDA",
      "AMD",
-     "NVDA"
+     "MU"
+    ]
+   },
+   {
+    "tech": "Quantum computing",
+    "signal": "ETF QTUM -6.9%, laggard RGTI -11.2%; speculative tech crushed with no buyers.",
+    "tickers": [
+     "QTUM",
+     "RGTI"
+    ]
+   },
+   {
+    "tech": "Crypto rails",
+    "signal": "Bitcoin -1.6% on 2.6x volume, but ETH bucked trend +0.9% with $3.2B inflow reversal.",
+    "tickers": [
+     "COIN",
+     "MARA",
+     "ETH-USD"
     ]
    },
    {
     "tech": "Software & cloud",
-    "signal": "$10.3B outflow, CRM laggard -3.7%.",
+    "signal": "Outflow -$20.4B led by ORCL -8.5%, CRM -1.5% relatively resilient; broader weakness.",
     "tickers": [
-     "IGV",
-     "CRM"
-    ]
-   },
-   {
-    "tech": "Quantum",
-    "signal": "3.05%, $198M outflow, IONQ -3.3%.",
-    "tickers": [
-     "QTUM",
-     "IONQ"
-    ]
-   },
-   {
-    "tech": "Cybersecurity",
-    "signal": "Only positive theme, HACK +1.4% on 3.28x volume.",
-    "tickers": [
-     "HACK"
+     "SKYY",
+     "CRM",
+     "ORCL"
     ]
    }
   ],
   "stocks": [
    {
-    "ticker": "AMD",
-    "note": "7.7% on 1.88x volume, bottom 3% of past year, 22.9% of session's dollar-weighted move."
+    "ticker": "NVDA",
+    "note": "14.0%, 7th straight outflow day, cum -$152.7B; largest single-stock drag on the session."
+   },
+   {
+    "ticker": "WMT",
+    "note": "The lone bright spot: +1.5% with +$775M inflow, reversal from prior outflow, 84th percentile move."
    },
    {
     "ticker": "UNH",
-    "note": "5.6% on 3.61x volume, bottom 2% of past year, 3.1% of session's dollar-weighted move."
-   },
-   {
-    "ticker": "INTC",
-    "note": "+1.9% with $343M inflow, only mega-cap positive, 68th percentile of past year."
+    "note": "+2.8% on 2.4x volume, 94th percentile of its year; health care relative strength amid panic."
    }
   ],
   "risks": [
-   "VIX at 29.5, up 52.7% in 5 days, suggests further hedging demand and potential for more downside.",
-   "6-day outflow streak in SPY ($120.8B cumulative) and NVDA ($78.2B) indicates persistent institutional selling."
+   "VIX at 35.89,; if it stays elevated, risk-off feeding frenzy could continue.",
+   "SPY on 7-day outflow streak with -$214.9B cumulative; momentum remains firmly negative."
   ],
   "watch_tomorrow": [
-   "Whether AMD stabilizes after -7.7% or continues to lead semis lower.",
-   "If VIX can hold above 30, which would signal sustained fear."
+   "Whether semis bounce or follow through lower after the 7-day streak.",
+   "Credit markets: TLT and LQD inflows today suggest flight to quality; check if high-yield HYG spreads blow out."
   ],
   "confidence": 0.9,
   "generated_by": "openrouter"
  },
  "llm": {
   "model": "deepseek/deepseek-v4-flash",
-  "started": "2026-11-20T09:45:36+00:00",
+  "started": "2026-11-21T09:17:38+00:00",
   "usage": {
-   "prompt_tokens": 7716,
-   "completion_tokens": 2920,
-   "total_tokens": 10636,
-   "cost": 0.00189784
+   "prompt_tokens": 7723,
+   "completion_tokens": 1447,
+   "total_tokens": 9170,
+   "cost": 0.00015458352
   },
   "model_returned": "deepseek/deepseek-v4-flash",
   "finish_reason": "stop"
  },
  "session": {
-  "session_date": "2026-11-19",
+  "session_date": "2026-11-20",
   "status": "prior session",
   "live": false,
-  "market_now": "2026-11-20 04:45",
+  "market_now": "2026-11-21 04:17",
   "timezone": "America/New_York",
   "region": "NYSEArca"
  }
